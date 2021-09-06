@@ -6,6 +6,8 @@ class Variable:
         self.data = data
 
 
+# Functionクラスは基底クラスとして、全ての関数に共通する機能を実装
+# 具体的な機能（関数）はFunctionクラスを継承したクラスで実装
 class Function:
     def __call__(self, input):
         x = input.data
