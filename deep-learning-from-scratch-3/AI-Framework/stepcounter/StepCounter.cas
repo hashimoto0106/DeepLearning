@@ -1,0 +1,12 @@
+[AFTPATH]
+..\src
+[BFRPATH]
+..\src
+[EXEMODE]
+1
+[RSLMODE]
+0
+[RSLPATH]
+.\
+[RSLNAME]
+StepCounterResult

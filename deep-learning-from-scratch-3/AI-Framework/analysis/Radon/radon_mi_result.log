@@ -1,0 +1,44 @@
+..\..\src\class.py
+    ERROR: 'cp932' codec can't decode byte 0x88 in position 120: illegal multibyte sequence
+..\..\src\config.py
+    ERROR: 'cp932' codec can't decode byte 0x97 in position 265: illegal multibyte sequence
+..\..\src\fizzbuzz.py - A
+..\..\src\function.py
+    ERROR: 'cp932' codec can't decode byte 0x88 in position 153: illegal multibyte sequence
+..\..\src\help.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 120: illegal multibyte sequence
+..\..\src\main.py
+    ERROR: 'cp932' codec can't decode byte 0x99 in position 1728: illegal multibyte sequence
+..\..\src\parameter.py - A
+..\..\src\translation.py
+    ERROR: 'cp932' codec can't decode byte 0x85 in position 180: illegal multibyte sequence
+..\..\src\version.py - A
+..\..\src\__init__.py - A
+..\..\src\common\console.py
+    ERROR: 'cp932' codec can't decode byte 0x85 in position 587: illegal multibyte sequence
+..\..\src\common\database.py
+    ERROR: 'cp932' codec can't decode byte 0x97 in position 238: illegal multibyte sequence
+..\..\src\common\graph2d.py
+    ERROR: 'cp932' codec can't decode byte 0x95 in position 622: illegal multibyte sequence
+..\..\src\common\graph3d.py
+    ERROR: 'cp932' codec can't decode byte 0x95 in position 926: illegal multibyte sequence
+..\..\src\common\line.py - A
+..\..\src\common\logger.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 396: illegal multibyte sequence
+..\..\src\common\plot.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 306: illegal multibyte sequence
+..\..\src\common\rsyslog.py - A
+..\..\src\common\console.py
+    ERROR: 'cp932' codec can't decode byte 0x85 in position 587: illegal multibyte sequence
+..\..\src\common\database.py
+    ERROR: 'cp932' codec can't decode byte 0x97 in position 238: illegal multibyte sequence
+..\..\src\common\graph2d.py
+    ERROR: 'cp932' codec can't decode byte 0x95 in position 622: illegal multibyte sequence
+..\..\src\common\graph3d.py
+    ERROR: 'cp932' codec can't decode byte 0x95 in position 926: illegal multibyte sequence
+..\..\src\common\line.py - A
+..\..\src\common\logger.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 396: illegal multibyte sequence
+..\..\src\common\plot.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 306: illegal multibyte sequence
+..\..\src\common\rsyslog.py - A

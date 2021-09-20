@@ -1,0 +1,662 @@
+b'************* Module src.class'
+b"W:\\Python\\99_ApplicationPackage\\src\\class.py:10: [R0205(useless-object-inheritance), Fruit] Class 'Fruit' inherits from object, can be safely removed from bases in python3"
+b"W:\\Python\\99_ApplicationPackage\\src\\class.py:32: [E1111(assignment-from-no-return), Fruit.__init__] Assigning to function call which doesn't return"
+b"W:\\Python\\99_ApplicationPackage\\src\\class.py:33: [E1111(assignment-from-no-return), Fruit.__init__] Assigning to function call which doesn't return"
+b'W:\\Python\\99_ApplicationPackage\\src\\class.py:35: [C0111(missing-docstring), Fruit.get_fruit_name] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\class.py:39: [C0111(missing-docstring), Fruit.get_price_dict] Missing method docstring'
+b'************* Module src.config'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:14: [C0103(invalid-name), ] Constant name "inifile" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:18: [C0103(invalid-name), ] Constant name "config_log" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:19: [C0103(invalid-name), ] Constant name "syslog_facility" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:20: [C0103(invalid-name), ] Constant name "syslog_option" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:21: [C0103(invalid-name), ] Constant name "database" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:22: [C0103(invalid-name), ] Constant name "line_notify_api" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:23: [C0103(invalid-name), ] Constant name "line_notify_token" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:24: [C0103(invalid-name), ] Constant name "translation_language" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:25: [C0103(invalid-name), ] Constant name "translation_dictionary_dir" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:26: [C0103(invalid-name), ] Constant name "translation_dictionary_file" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:29: [C0111(missing-docstring), init] Missing function docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:33: [C0111(missing-docstring), logging_paramter] Missing function docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\config.py:34: [E0401(import-error), logging_paramter] Unable to import 'common.logger'"
+b'W:\\Python\\99_ApplicationPackage\\src\\config.py:8: [W0611(unused-import), ] Unused import os'
+b'************* Module src.fizzbuzz'
+b'W:\\Python\\99_ApplicationPackage\\src\\fizzbuzz.py:9: [C0111(missing-docstring), fizzbuzz] Missing function docstring'
+b'************* Module src.function'
+b"W:\\Python\\99_ApplicationPackage\\src\\function.py:9: [E0401(import-error), ] Unable to import 'common.logger'"
+b"W:\\Python\\99_ApplicationPackage\\src\\function.py:39: [W0622(redefined-builtin), get_fruit_price] Redefining built-in 'type'"
+b'W:\\Python\\99_ApplicationPackage\\src\\function.py:38: [W0702(bare-except), get_fruit_price] No exception type(s) specified'
+b'************* Module src.help'
+b"W:\\Python\\99_ApplicationPackage\\src\\help.py:13: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n            prog='argparseTest.py',  # \x83v\x83\x8d\x83O\x83\x89\x83\x80\x96\xbc\r\n    |       ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\help.py:14: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n            usage='Demonstration of argparser',  # \x83v\x83\x8d\x83O\x83\x89\x83\x80\x82\xcc\x97\x98\x97p\x95\xfb\x96@\r\n    |       ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\help.py:15: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n            description='description',  # \x88\xf8\x90\x94\x82\xcc\x83w\x83\x8b\x83v\x82\xcc\x91O\x82\xc9\x95\\\x8e\xa6\r\n    |       ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\help.py:16: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n            epilog='end',  # \x88\xf8\x90\x94\x82\xcc\x83w\x83\x8b\x83v\x82\xcc\x8c\xe3\x82\xc5\x95\\\x8e\xa6\r\n    |       ^"
+b'W:\\Python\\99_ApplicationPackage\\src\\help.py:17: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n            add_help=True,  # -h/help \x83I\x83v\x83V\x83\x87\x83\x93\x82\xcc\x92\xc7\x89\xc1\r\n    |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\help.py:18: [C0330(bad-continuation), ] Wrong hanging indentation.\n            )\r\n|   |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\help.py:12: [C0103(invalid-name), ] Constant name "parser" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\help.py:21: [C0103(invalid-name), ] Constant name "parser" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\help.py:30: [C0103(invalid-name), ] Constant name "args" doesn\'t conform to UPPER_CASE naming style'
+b'************* Module src.main'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:52: [C0301(line-too-long), ] Line too long (124/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:52: [C0326(bad-whitespace), ] Exactly one space required after comma\n    graph_3d = common.graph3d.graph("title","xlabel", "ylabel", "zlabel", (-10.0, 10.0), (-10.0, 10.0), (-10.0, 10.0), True)\n                                           ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:72: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:73: [C0303(trailing-whitespace), ] Trailing whitespace'
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:28: [W0622(redefined-builtin), ] Redefining built-in 'help'"
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:12: [C0413(wrong-import-position), ] Import "import time" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:13: [C0413(wrong-import-position), ] Import "from tqdm import tqdm" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:14: [C0413(wrong-import-position), ] Import "from datetime import datetime" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:15: [C0413(wrong-import-position), ] Import "import numpy as np" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:17: [C0413(wrong-import-position), ] Import "import config" should be placed at the top of the module'
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:18: [E0401(import-error), ] Unable to import 'common.logger'"
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:18: [C0413(wrong-import-position), ] Import "import common.logger" should be placed at the top of the module'
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:19: [E0401(import-error), ] Unable to import 'common.database'"
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:19: [C0413(wrong-import-position), ] Import "import common.database" should be placed at the top of the module'
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:22: [E0401(import-error), ] Unable to import 'common.console'"
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:22: [C0413(wrong-import-position), ] Import "import common.console" should be placed at the top of the module'
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:23: [E0401(import-error), ] Unable to import 'common.line'"
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:23: [C0413(wrong-import-position), ] Import "import common.line" should be placed at the top of the module'
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:24: [E0401(import-error), ] Unable to import 'common.graph2d'"
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:24: [C0413(wrong-import-position), ] Import "import common.graph2d" should be placed at the top of the module'
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:25: [E0401(import-error), ] Unable to import 'common.graph3d'"
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:25: [C0413(wrong-import-position), ] Import "import common.graph3d" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:27: [C0413(wrong-import-position), ] Import "import version" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:28: [C0413(wrong-import-position), ] Import "import help" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:29: [C0413(wrong-import-position), ] Import "import function" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:30: [C0413(wrong-import-position), ] Import "import parameter" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:31: [C0413(wrong-import-position), ] Import "import translation" should be placed at the top of the module'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:34: [C0111(missing-docstring), proc] Missing function docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:77: [W0612(unused-variable), proc] Unused variable 'i'"
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:83: [E1101(no-member), ] Module 'version' has no 'get_version' member"
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:88: [C0103(invalid-name), ] Constant name "now" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:89: [C0103(invalid-name), ] Constant name "start_time" doesn\'t conform to UPPER_CASE naming style'
+b"W:\\Python\\99_ApplicationPackage\\src\\main.py:94: [E1101(no-member), ] Module 'config' has no 'logging_paramter' member"
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:104: [C0103(invalid-name), ] Constant name "proc_time" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:15: [W0611(unused-import), ] Unused numpy imported as np'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:28: [W0611(unused-import), ] Unused import help'
+b'W:\\Python\\99_ApplicationPackage\\src\\main.py:14: [C0411(wrong-import-order), ] standard import "from datetime import datetime" should be placed before "from tqdm import tqdm"'
+b'************* Module src.parameter'
+b'W:\\Python\\99_ApplicationPackage\\src\\parameter.py:18: [W0105(pointless-string-statement), ] String statement has no effect'
+b'************* Module src.translation'
+b'W:\\Python\\99_ApplicationPackage\\src\\translation.py:13: [C0111(missing-docstring), init] Missing function docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\translation.py:18: [E1101(no-member), init] Module 'config' has no 'translation_dictionary_dir' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\translation.py:24: [E1101(no-member), init] Module 'config' has no 'translation_dictionary_file' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\translation.py:26: [E1101(no-member), init] Module 'config' has no 'translation_language' member"
+b'************* Module src.version'
+b'W:\\Python\\99_ApplicationPackage\\src\\version.py:16: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\version.py:11: [C0111(missing-docstring), get_version] Missing function docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\version.py:15: [C0111(missing-docstring), print_version] Missing function docstring'
+b'************* Module src.common.console'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:15: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    BLACK     = '\\033[30m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:16: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    RED       = '\\033[31m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:17: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    GREEN     = '\\033[32m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:18: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    YELLOW    = '\\033[33m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:19: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    BLUE      = '\\033[34m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:20: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    PURPLE    = '\\033[35m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:21: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    CYAN      = '\\033[36m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:22: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    WHITE     = '\\033[37m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:23: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    END       = '\\033[0m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:24: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    BOLD      = '\\038[1m'\r\n              ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:29: [C0326(bad-whitespace), ] Exactly one space required before assignment\n    REVERCE   = '\\033[07m'  # \x94\xbd\x93]\r\n              ^"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:52: [C0301(line-too-long), ] Line too long (114/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:53: [C0301(line-too-long), ] Line too long (114/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:14: [C0111(missing-docstring), Color] Missing class docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:14: [R0903(too-few-public-methods), Color] Too few public methods (0/2)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:10: [W0611(unused-import), ] Unused Fore imported from colorama'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:10: [W0611(unused-import), ] Unused Style imported from colorama'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\console.py:10: [W0611(unused-import), ] Unused Back imported from colorama'
+b'************* Module src.common.database'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:32: [C0301(line-too-long), ] Line too long (105/100)'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:33: [C0330(bad-continuation), ] Wrong continued indentation (add 9 spaces).\n          {'start_time': start_time, 'os': platform.platform(), 'python_version': platform.python_version(), 'host': platform.node(), 'proc_time_sec': proc_time})\r\n          ^        |"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:33: [C0301(line-too-long), ] Line too long (162/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:34: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:12: [C0103(invalid-name), ] Constant name "conn" doesn\'t conform to UPPER_CASE naming style'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:12: [E1101(no-member), ] Module 'config' has no 'database' member"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:13: [C0103(invalid-name), ] Constant name "cursor" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:16: [C0111(missing-docstring), create_table] Missing function docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:31: [C0111(missing-docstring), insert] Missing function docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\database.py:10: [C0411(wrong-import-order), ] standard import "import platform" should be placed before "import config"'
+b'************* Module src.common.graph2d'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:27: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.fig = plt.figure(figsize = (6, 6))  # Figure\x82\xc6Axes\r\n                                      ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:49: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.set_xlabel(xlabel, fontsize = 11)\r\n                                              ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:50: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.set_ylabel(ylabel, fontsize = 11)\r\n                                              ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:59: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.set_xlabel("Width[px]", fontsize = 11)\r\n                                                   ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:60: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.set_ylabel("Height[px]", fontsize = 11)\r\n                                                    ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:70: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_point_polar(self, label, theta, rad, marker=".", color = "black"):\r\n                                                                    ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:82: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_vector(self, label, p0, p1, color = "black"):\r\n                                               ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:83: [C0301(line-too-long), ] Line too long (126/100)'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:83: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)\r\n                                                           ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:83: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)\r\n                                                                           ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:83: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)\r\n                                                                                               ^"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:83: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)\r\n                                                                                                             ^"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:85: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # \x90\x94\x92l\x95\\\x8e\xa6\r\n                                                                ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:85: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # \x90\x94\x92l\x95\\\x8e\xa6\r\n                                                                              ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:89: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_point(self, label, p, marker=".", color = "black"):\r\n                                                     ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:92: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # \x90\x94\x92l\x95\\\x8e\xa6\r\n                                                             ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:92: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # \x90\x94\x92l\x95\\\x8e\xa6\r\n                                                                           ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:96: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_circle(self, p, r, color = "black"):\r\n                                      ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:103: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_rectangle(self, p, width, height, color = "black"):\r\n                                                     ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:115: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_ellipse_test2(self, label, p, a, b, color = "black"):\r\n                                                       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:120: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:135: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_ellipse(self, label, p, a, b, rot, color = "black"):\r\n                                                      ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:137: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:137: [C0326(bad-whitespace), ] No space allowed before comma\n        Ell = np.array([a*np.cos(t) , b*np.sin(t)])  \r\n                                    ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:139: [C0301(line-too-long), ] Line too long (122/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:139: [C0326(bad-whitespace), ] No space allowed before comma\n        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix\r\n                                           ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:139: [C0326(bad-whitespace), ] Exactly one space required after comma\n        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix\r\n                                                              ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:139: [C0326(bad-whitespace), ] No space allowed before comma\n        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix\r\n                                                                                ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:140: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:141: [C0326(bad-whitespace), ] Exactly one space required after comma\n        Ell_rot = np.zeros((2,Ell.shape[1]))\r\n                             ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:143: [C0326(bad-whitespace), ] Exactly one space required after comma\n            Ell_rot[:,i] = np.dot(R_rot,Ell[:,i])\r\n                     ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:143: [C0326(bad-whitespace), ] Exactly one space required after comma\n            Ell_rot[:,i] = np.dot(R_rot,Ell[:,i])\r\n                                       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:143: [C0326(bad-whitespace), ] Exactly one space required after comma\n            Ell_rot[:,i] = np.dot(R_rot,Ell[:,i])\r\n                                             ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:145: [C0326(bad-whitespace), ] No space allowed after bracket\n        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse\r\n                ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:145: [C0326(bad-whitespace), ] Exactly one space required after comma\n        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse\r\n                                ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:145: [C0326(bad-whitespace), ] No space allowed before comma\n        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse\r\n                                    ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:145: [C0326(bad-whitespace), ] Exactly one space required after comma\n        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse\r\n                                                    ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:145: [C0326(bad-whitespace), ] No space allowed before comma\n        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse\r\n                                                        ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:145: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse\r\n                                                                ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:149: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_ellipse_test(self, p, width, height, color = "black"):\r\n                                                        ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:157: [C0301(line-too-long), ] Line too long (127/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:157: [C0326(bad-whitespace), ] Exactly one space required after comma\n        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))\r\n         ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:157: [C0326(bad-whitespace), ] Exactly one space required after comma\n        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))\r\n                                                     ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:157: [C0326(bad-whitespace), ] Exactly one space required after comma\n        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))\r\n                                                                           ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:158: [C0326(bad-whitespace), ] Exactly one space required after comma\n        pos = np.dstack((x,y))\r\n                          ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:159: [C0326(bad-whitespace), ] Exactly one space required after comma\n        z = scipy.stats.multivariate_normal(mean,cov).pdf(pos)\r\n                                                ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:160: [C0326(bad-whitespace), ] Exactly one space required after comma\n        self.axes.contourf(x,y,z)\r\n                            ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:160: [C0326(bad-whitespace), ] Exactly one space required after comma\n        self.axes.contourf(x,y,z)\r\n                              ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:11: [C0414(useless-import-alias), ] Import alias does not rename original package'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:15: [C0103(invalid-name), graph] Class name "graph" doesn\'t conform to PascalCase naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:15: [C0111(missing-docstring), graph] Missing class docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:15: [R0205(useless-object-inheritance), graph] Class 'graph' inherits from object, can be safely removed from bases in python3"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:30: [C0121(singleton-comparison), graph.__init__] Comparison to True should be just 'expr' or 'expr is True'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:58: [C0111(missing-docstring), graph.set_graph_image] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:66: [C0111(missing-docstring), graph.set_graph_polar] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:70: [C0111(missing-docstring), graph.plot_point_polar] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:70: [R0913(too-many-arguments), graph.plot_point_polar] Too many arguments (6/5)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:77: [C0103(invalid-name), graph.text_value] Argument name "p" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:77: [C0111(missing-docstring), graph.text_value] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:77: [R0201(no-self-use), graph.text_value] Method could be a function'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:82: [C0103(invalid-name), graph.plot_vector] Argument name "p0" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:82: [C0103(invalid-name), graph.plot_vector] Argument name "p1" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:82: [C0111(missing-docstring), graph.plot_vector] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:89: [C0103(invalid-name), graph.plot_point] Argument name "p" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:89: [C0111(missing-docstring), graph.plot_point] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:96: [C0103(invalid-name), graph.plot_circle] Argument name "p" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:96: [C0103(invalid-name), graph.plot_circle] Argument name "r" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:96: [C0111(missing-docstring), graph.plot_circle] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:97: [C0103(invalid-name), graph.plot_circle] Variable name "c" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:103: [C0103(invalid-name), graph.plot_rectangle] Argument name "p" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:103: [C0111(missing-docstring), graph.plot_rectangle] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:104: [C0103(invalid-name), graph.plot_rectangle] Variable name "r" doesn\'t conform to snake_case naming style'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:103: [W0613(unused-argument), graph.plot_rectangle] Unused argument 'color'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:108: [C0103(invalid-name), graph.ellipse] Argument name "x" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:108: [C0103(invalid-name), graph.ellipse] Argument name "a" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:108: [C0103(invalid-name), graph.ellipse] Argument name "b" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:108: [C0111(missing-docstring), graph.ellipse] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:109: [C0103(invalid-name), graph.ellipse] Variable name "y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:108: [R0201(no-self-use), graph.ellipse] Method could be a function'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:115: [C0103(invalid-name), graph.plot_ellipse_test2] Argument name "p" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:115: [C0103(invalid-name), graph.plot_ellipse_test2] Argument name "a" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:115: [C0103(invalid-name), graph.plot_ellipse_test2] Argument name "b" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:115: [C0111(missing-docstring), graph.plot_ellipse_test2] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:115: [R0913(too-many-arguments), graph.plot_ellipse_test2] Too many arguments (6/5)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:116: [C0103(invalid-name), graph.plot_ellipse_test2] Variable name "t" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:118: [C0103(invalid-name), graph.plot_ellipse_test2] Variable name "x" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:119: [C0103(invalid-name), graph.plot_ellipse_test2] Variable name "g" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:122: [C0103(invalid-name), graph.plot_ellipse_test2] Variable name "y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:123: [C0200(consider-using-enumerate), graph.plot_ellipse_test2] Consider using enumerate instead of iterating with range and len'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:124: [C0103(invalid-name), graph.plot_ellipse_test2] Variable name "y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:130: [C0103(invalid-name), graph.plot_ellipse_test2] Variable name "y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:135: [C0103(invalid-name), graph.plot_ellipse] Argument name "p" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:135: [C0103(invalid-name), graph.plot_ellipse] Argument name "a" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:135: [C0103(invalid-name), graph.plot_ellipse] Argument name "b" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:135: [C0111(missing-docstring), graph.plot_ellipse] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:135: [R0913(too-many-arguments), graph.plot_ellipse] Too many arguments (7/5)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:136: [C0103(invalid-name), graph.plot_ellipse] Variable name "t" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:137: [C0103(invalid-name), graph.plot_ellipse] Variable name "Ell" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:139: [C0103(invalid-name), graph.plot_ellipse] Variable name "R_rot" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:141: [C0103(invalid-name), graph.plot_ellipse] Variable name "Ell_rot" doesn\'t conform to snake_case naming style'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:135: [W0613(unused-argument), graph.plot_ellipse] Unused argument 'label'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:135: [R0201(no-self-use), graph.plot_ellipse] Method could be a function'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:149: [C0103(invalid-name), graph.plot_ellipse_test] Argument name "p" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:149: [C0111(missing-docstring), graph.plot_ellipse_test] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:150: [C0103(invalid-name), graph.plot_ellipse_test] Variable name "r" doesn\'t conform to snake_case naming style'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:149: [W0613(unused-argument), graph.plot_ellipse_test] Unused argument 'color'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:155: [C0111(missing-docstring), graph.multivariate_normal] Missing method docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:157: [C0103(invalid-name), graph.multivariate_normal] Variable name "x" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:157: [C0103(invalid-name), graph.multivariate_normal] Variable name "y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph2d.py:159: [C0103(invalid-name), graph.multivariate_normal] Variable name "z" doesn\'t conform to snake_case naming style'
+b'************* Module src.common.graph3d'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:33: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:38: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.fig = plt.figure(figsize = (6, 6))  # Figure\x82\xc6Axes\r\n                                      ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:42: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.set_xlabel(xlabel, fontsize = 11)\r\n                                              ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:43: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.set_ylabel(ylabel, fontsize = 11)\r\n                                              ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:44: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.set_zlabel(zlabel, fontsize = 11)\r\n                                              ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:77: [C0301(line-too-long), ] Line too long (136/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:77: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)\r\n                                                                                        ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:77: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)\r\n                                                                                                          ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:77: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)\r\n                                                                                                                                  ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:78: [C0301(line-too-long), ] Line too long (136/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:78: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)\r\n                                                                                        ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:78: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)\r\n                                                                                                          ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:78: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)\r\n                                                                                                                                  ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:79: [C0301(line-too-long), ] Line too long (136/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:79: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)\r\n                                                                                        ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:79: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)\r\n                                                                                                          ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:79: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)\r\n                                                                                                                                  ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:81: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X\x8d\xc0\x95W\x95\\\x8e\xa6\r\n                                                                   ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:81: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X\x8d\xc0\x95W\x95\\\x8e\xa6\r\n                                                                                   ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:82: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y\x8d\xc0\x95W\x95\\\x8e\xa6\r\n                                                                   ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:82: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y\x8d\xc0\x95W\x95\\\x8e\xa6\r\n                                                                                   ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:83: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z\x8d\xc0\x95W\x95\\\x8e\xa6\r\n                                                                   ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:83: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z\x8d\xc0\x95W\x95\\\x8e\xa6\r\n                                                                                   ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:85: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:89: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:94: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:104: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_vector(self, label, p0, p1, color = "black"):\r\n                                               ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:107: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:118: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:123: [C0301(line-too-long), ] Line too long (132/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:123: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)\r\n                                                                         ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:123: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)\r\n                                                                                         ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:123: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)\r\n                                                                                                                 ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:125: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # \x90\x94\x92l\x95\\\x8e\xa6\r\n                                                                       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:125: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # \x90\x94\x92l\x95\\\x8e\xa6\r\n                                                                                     ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:128: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_point(self, label, p, marker=".", color = "black"):\r\n                                                     ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:131: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:142: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:149: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # \x90\x94\x92l\x95\\\x8e\xa6\r\n                                                                   ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:149: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # \x90\x94\x92l\x95\\\x8e\xa6\r\n                                                                                 ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:153: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n    def plot_sphere(self, org, r, color = "black"):\r\n                                        ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:156: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:165: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:176: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n        self.axes.plot_surface(x, y, z, alpha=0.2, color = color) # \x8b\x85\x82\xf0\x82R\x8e\x9f\x8c\xb3\x8b\xf3\x8a\xd4\x82\xc9\x95\\\x8e\xa6\r\n                                                         ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:13: [C0103(invalid-name), graph] Class name "graph" doesn\'t conform to PascalCase naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:13: [C0111(missing-docstring), graph] Missing class docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:13: [R0205(useless-object-inheritance), graph] Class 'graph' inherits from object, can be safely removed from bases in python3"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:15: [R0913(too-many-arguments), graph.__init__] Too many arguments (9/5)'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:54: [C0121(singleton-comparison), graph.__init__] Comparison to True should be just 'expr' or 'expr is True'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:86: [C0103(invalid-name), graph.text_value] Argument name "p" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:86: [R0201(no-self-use), graph.text_value] Method could be a function'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:104: [C0103(invalid-name), graph.plot_vector] Argument name "p0" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:104: [C0103(invalid-name), graph.plot_vector] Argument name "p1" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:128: [C0103(invalid-name), graph.plot_point] Argument name "p" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:153: [C0103(invalid-name), graph.plot_sphere] Argument name "r" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:173: [C0103(invalid-name), graph.plot_sphere] Variable name "x" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:174: [C0103(invalid-name), graph.plot_sphere] Variable name "y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\graph3d.py:175: [C0103(invalid-name), graph.plot_sphere] Variable name "z" doesn\'t conform to snake_case naming style'
+b'************* Module src.common.line'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:12: [C0103(invalid-name), ] Constant name "headers" doesn\'t conform to UPPER_CASE naming style'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:12: [E1101(no-member), ] Module 'config' has no 'line_notify_token' member"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:15: [C0111(missing-docstring), send_message] Missing function docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:17: [E1101(no-member), send_message] Module 'config' has no 'line_notify_api' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:17: [W0612(unused-variable), send_message] Unused variable 'line_notify'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:20: [C0111(missing-docstring), send_image] Missing function docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:23: [E1101(no-member), send_image] Module 'config' has no 'line_notify_api' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:23: [W0612(unused-variable), send_image] Unused variable 'line_notify'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:26: [C0111(missing-docstring), send] Missing function docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:29: [E1101(no-member), send] Module 'config' has no 'line_notify_api' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\line.py:29: [W0612(unused-variable), send] Unused variable 'line_notify'"
+b'************* Module src.common.logger'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\logger.py:14: [E1101(no-member), ] Module 'config' has no 'config_log' member"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\logger.py:15: [C0103(invalid-name), ] Constant name "app_logger" doesn\'t conform to UPPER_CASE naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\logger.py:18: [C0111(missing-docstring), init] Missing function docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\logger.py:22: [C0111(missing-docstring), logging_environment] Missing function docstring'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\logger.py:10: [C0411(wrong-import-order), ] standard import "import platform" should be placed before "import config"'
+b'************* Module src.common.plot'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:48: [C0301(line-too-long), ] Line too long (107/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:120: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                data,  # \x83q\x83X\x83g\x83O\x83\x89\x83\x80\x82\xf0\x8d\xec\x90\xac\x82\xb7\x82\xe9\x82\xbd\x82\xdf\x82\xcc\x90\xb6\x83f\x81[\x83^\x82\xcc\x94z\x97\xf1\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:121: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                bins,  # \x83r\x83\x93 (\x95\\\x8e\xa6\x82\xb7\x82\xe9\x96_) \x82\xcc\x90\x94\x81B\x8aK\x8b\x89\x90\x94\x81B(\x83f\x83t\x83H\x83\x8b\x83g\x92l: 10)\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:122: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                range=None,  # \x83r\x83\x93\x82\xcc\x8d\xc5\x8f\xac\x92l\x82\xc6\x8d\xc5\x91\xe5\x92l\x82\xf0\x8ew\x92\xe8\x81B(\x83f\x83t\x83H\x83\x8b\x83g\x92l: (x.min(), x.max()))\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:123: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                normed=False,  # True \x82\xc9\x90\xdd\x92\xe8\x82\xb7\x82\xe9\x82\xc6\x90\xb3\x8bK\x89\xbb (\x8d\x87\x8cv\x92l\x82\xaa 1 \x82\xc9\x82\xc8\x82\xe9\x82\xe6\x82\xa4\x82\xc9\x95\xcf\x8a\xb7)\x81B (\x83f\x83t\x83H\x83\x8b\x83g\x92l: False)\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:124: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                weights=None,  # \r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:124: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:125: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                cumulative=False,  # True \x82\xc9\x90\xdd\x92\xe8\x82\xb7\x82\xe9\x82\xc6\x81A\x97\xdd\x90\xcf\x83q\x83X\x83g\x83O\x83\x89\x83\x80\x82\xf0\x8fo\x97\xcd\x81B (\x83f\x83t\x83H\x83\x8b\x83g\x92l: False)\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:126: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                bottom=None,  # \x8ae\x96_\x82\xcc\x89\xba\x91\xa4\x82\xcc\x97]\x94\x92\x82\xf0\x90\x94\x92l\x82\xdc\x82\xbd\x82\xcd\x94z\x97\xf1\x82\xc5\x8ew\x92\xe8\r\n        |       ^'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:127: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                histtype='bar',  # \x81ebar\x81f (\x92\xca\x8f\xed\x82\xcc\x83q\x83X\x83g\x83O\x83\x89\x83\x80), \x81ebarstacked\x81f (\x90\xcf\x82\xdd\x8f\xe3\x82\xb0\x83q\x83X\x83g\x83O\x83\x89\x83\x80), \x81estep\x81f (\x90\xfc), \x81estepfilled \x81e (\x93h\x82\xe8\x82\xc2\x82\xd4\x82\xb5\x82\xa0\x82\xe8\x82\xcc\x90\xfc) \x82\xa9\x82\xe7\x91I\x91\xf0\x81B (\x83f\x83t\x83H\x83\x8b\x83g\x92l: \x81ebar\x81f)\r\n        |       ^"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:127: [C0301(line-too-long), ] Line too long (140/100)'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:128: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                align='mid',  # \x8ae\x96_\x82\xcc\x92\x86\x90S\x82\xf0 X \x8e\xb2\x96\xda\x90\xb7\x8f\xe3\x82\xcc\x82\xc7\x82\xcc\x89\xa1\x88\xca\x92u\x82\xc5\x8fo\x97\xcd\x82\xb7\x82\xe9\x82\xa9\x81B \x81eleft\x81f, \x81emid\x81f, \x81eright\x81f \x82\xa9\x82\xe7\x91I\x91\xf0\x81B(\x83f\x83t\x83H\x83\x8b\x83g\x92l: \x81emid\x81f)\r\n        |       ^"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:128: [C0301(line-too-long), ] Line too long (102/100)'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:129: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                orientation='vertical',  # \x96_\x82\xcc\x95\xfb\x8c\xfc\x81B\x81fhorizontal\x81f (\x90\x85\x95\xbd\x95\xfb\x8c\xfc), \x81evertical\x81f (\x90\x82\x92\xbc\x95\xfb\x8c\xfc) \x82\xa9\x82\xe7\x91I\x91\xf0\x81B(\x83f\x83t\x83H\x83\x8b\x83g\x92l: \x81evertical\x81f)\r\n        |       ^"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:129: [C0301(line-too-long), ] Line too long (112/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:130: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                rwidth=None,  # \x8ae\x96_\x82\xcc\x95\x9d\x82\xf0\x90\x94\x92l\x82\xdc\x82\xbd\x82\xcd\x81A\x94z\x97\xf1\x82\xc5\x8ew\x92\xe8\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:131: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                log=False,  # True \x82\xc9\x90\xdd\x92\xe8\x82\xb7\x82\xe9\x82\xc6\x81A\x8fc\x8e\xb2\x82\xf0\x91\xce\x90\x94\x96\xda\x90\xb7\x82\xc5\x95\\\x8e\xa6\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:132: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                color=None,  # \x83q\x83X\x83g\x83O\x83\x89\x83\x80\x82\xcc\x90F\x81B\x94z\x97\xf1\x82\xc5\x8ew\x92\xe8\x82\xb5\x81A\x83f\x81[\x83^\x83Z\x83b\x83g\x92P\x88\xca\x82\xc5\x90F\x82\xf0\x8ew\x92\xe8\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:133: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                label=None,  # \x96}\x97\xe1\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:134: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                stacked=False,  # True \x82\xc9\x90\xdd\x92\xe8\x82\xb7\x82\xe9\x82\xc6\x90\xcf\x82\xdd\x8f\xe3\x82\xb0\x83q\x83X\x83g\x83O\x83\x89\x83\x80\x82\xc5\x8fo\x97\xcd\x82\xb5\x82\xdc\x82\xb7\x81BFalse \x82\xc9\x90\xdd\x92\xe8\x82\xb7\x82\xe9\x82\xc6\x81A\x89\xa1\x82\xc9\x95\xc0\x82\xd7\x82\xc4\x8fo\x97\xcd\r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:135: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                hold=None,  # \r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:135: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:136: [C0330(bad-continuation), ] Wrong hanging indentation (remove 8 spaces).\n                data=None  # \r\n        |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:136: [C0303(trailing-whitespace), ] Trailing whitespace'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:137: [C0330(bad-continuation), ] Wrong hanging indentation.\n                )\r\n    |   |       ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [C0301(line-too-long), ] Line too long (104/100)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:13: [C0103(invalid-name), show_2D_grahp] Function name "show_2D_grahp" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:13: [C0103(invalid-name), show_2D_grahp] Argument name "x" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:13: [C0103(invalid-name), show_2D_grahp] Argument name "y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:13: [R0913(too-many-arguments), show_2D_grahp] Too many arguments (10/5)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:48: [C0103(invalid-name), show_3D_grahp] Function name "show_3D_grahp" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:48: [C0103(invalid-name), show_3D_grahp] Argument name "x" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:48: [C0103(invalid-name), show_3D_grahp] Argument name "y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:48: [C0103(invalid-name), show_3D_grahp] Argument name "z" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:48: [R0913(too-many-arguments), show_3D_grahp] Too many arguments (15/5)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:48: [R0914(too-many-locals), show_3D_grahp] Too many local variables (17/15)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:74: [C0103(invalid-name), show_3D_grahp] Variable name "ax" doesn\'t conform to snake_case naming style'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:48: [W0613(unused-argument), show_3D_grahp] Unused argument 'arg'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:142: [C0103(invalid-name), show_2D_vector] Function name "show_2D_vector" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:142: [C0103(invalid-name), show_2D_vector] Argument name "X" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:142: [C0103(invalid-name), show_2D_vector] Argument name "Y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:142: [C0103(invalid-name), show_2D_vector] Argument name "U" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:142: [C0103(invalid-name), show_2D_vector] Argument name "V" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:142: [R0913(too-many-arguments), show_2D_vector] Too many arguments (11/5)'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:142: [W0613(unused-argument), show_2D_vector] Unused argument 'Y'"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:142: [W0613(unused-argument), show_2D_vector] Unused argument 'X'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [C0103(invalid-name), show_3D_vector] Function name "show_3D_vector" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [C0103(invalid-name), show_3D_vector] Argument name "X" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [C0103(invalid-name), show_3D_vector] Argument name "Y" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [C0103(invalid-name), show_3D_vector] Argument name "Z" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [C0103(invalid-name), show_3D_vector] Argument name "U" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [C0103(invalid-name), show_3D_vector] Argument name "V" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [C0103(invalid-name), show_3D_vector] Argument name "W" doesn\'t conform to snake_case naming style'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [R0913(too-many-arguments), show_3D_vector] Too many arguments (16/5)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:184: [R0914(too-many-locals), show_3D_vector] Too many local variables (18/15)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:212: [C0103(invalid-name), show_3D_vector] Variable name "ax" doesn\'t conform to snake_case naming style'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:233: [E1101(no-member), show_3D_vector] Module 'matplotlib.pylab' has no 'zlim' member; maybe 'ylim'?"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\plot.py:10: [W0611(unused-import), ] Unused Axes3D imported from mpl_toolkits.mplot3d'
+b'************* Module src.common.rsyslog'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:13: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:14: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:15: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:16: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:17: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:18: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:19: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:20: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:21: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:22: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:23: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:24: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:27: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:28: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:29: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:30: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:31: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:32: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:33: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:34: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:35: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:36: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:37: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:38: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:39: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:40: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:41: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:42: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:43: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:44: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:45: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:46: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:47: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:48: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:49: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:50: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:51: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:52: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:53: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:54: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:55: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:56: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:57: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:58: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:59: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:60: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:61: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:62: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:63: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:64: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:66: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:66: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n\tcommon.syslog.openlog(logoption = option, facility = fclty)\n                                 ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:66: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment\n\tcommon.syslog.openlog(logoption = option, facility = fclty)\n                                                    ^'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:70: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:73: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:11: [W0622(redefined-builtin), open] Redefining built-in 'open'"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:8: [E0401(import-error), ] Unable to import 'common.syslog'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:11: [C0111(missing-docstring), open] Missing function docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:13: [E1101(no-member), open] Module 'config' has no 'syslog_option' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:15: [E1101(no-member), open] Module 'config' has no 'syslog_option' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:17: [E1101(no-member), open] Module 'config' has no 'syslog_option' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:19: [E1101(no-member), open] Module 'config' has no 'syslog_option' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:21: [E1101(no-member), open] Module 'config' has no 'syslog_option' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:24: [E0602(undefined-variable), open] Undefined variable 'LOG_PID'"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:27: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:28: [E0602(undefined-variable), open] Undefined variable 'syslog'"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:29: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:31: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:33: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:35: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:37: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:39: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:41: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:43: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:45: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:47: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:49: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:51: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:53: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:55: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:57: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:59: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:61: [E1101(no-member), open] Module 'config' has no 'syslog_facility' member"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:11: [R0912(too-many-branches), open] Too many branches (25/12)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:11: [R0915(too-many-statements), open] Too many statements (52/50)'
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:69: [C0111(missing-docstring), logging] Missing function docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:70: [E0602(undefined-variable), logging] Undefined variable 'syslog'"
+b'W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:72: [C0111(missing-docstring), close] Missing function docstring'
+b"W:\\Python\\99_ApplicationPackage\\src\\common\\rsyslog.py:73: [E0602(undefined-variable), close] Undefined variable 'syslog'"
+
+
+Report
+======
+470 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |18     |18         |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |4          |=          |25.00       |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |24     |24         |=          |37.50       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |23     |23         |=          |26.09       |17.39    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    colorama (src.common.console)
+    config (src.common.database,src.common.line,src.common.logger,src.common.rsyslog,src.main,src.translation)
+    function (src.main)
+    help (src.main)
+    matplotlib 
+      \-patches (src.common.graph2d)
+      \-pylab (src.common.plot)
+      \-pyplot (src.common.graph2d,src.common.graph3d,src.common.plot)
+    mpl_toolkits 
+      \-mplot3d 
+        \-Axes3D (src.common.graph3d,src.common.plot)
+    numpy (src.common.graph2d,src.common.graph3d,src.main)
+    parameter (src.main)
+    requests (src.common.line)
+    scipy (src.common.graph2d)
+    tqdm (src.main)
+    translation (src.main)
+    version (src.main)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |558    |46.04 |558      |=          |
++----------+-------+------+---------+-----------+
+|docstring |360    |29.70 |360      |=          |
++----------+-------+------+---------+-----------+
+|comment   |117    |9.65  |117      |=          |
++----------+-------+------+---------+-----------+
+|empty     |177    |14.60 |177      |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |290    |290      |=          |
++-----------+-------+---------+-----------+
+|refactor   |20     |20       |=          |
++-----------+-------+---------+-----------+
+|warning    |76     |76       |=          |
++-----------+-------+---------+-----------+
+|error      |50     |16       |+34.00     |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++--------------------+------+--------+---------+-----------+
+|module              |error |warning |refactor |convention |
++====================+======+========+=========+===========+
+|src.common.rsyslog  |56.00 |71.05   |10.00    |1.72       |
++--------------------+------+--------+---------+-----------+
+|src.main            |16.00 |5.26    |0.00     |8.62       |
++--------------------+------+--------+---------+-----------+
+|src.common.line     |8.00  |3.95    |0.00     |1.38       |
++--------------------+------+--------+---------+-----------+
+|src.translation     |6.00  |0.00    |0.00     |0.34       |
++--------------------+------+--------+---------+-----------+
+|src.class           |4.00  |0.00    |5.00     |0.69       |
++--------------------+------+--------+---------+-----------+
+|src.common.plot     |2.00  |5.26    |30.00    |16.21      |
++--------------------+------+--------+---------+-----------+
+|src.function        |2.00  |2.63    |0.00     |0.00       |
++--------------------+------+--------+---------+-----------+
+|src.config          |2.00  |1.32    |0.00     |4.14       |
++--------------------+------+--------+---------+-----------+
+|src.common.database |2.00  |0.00    |0.00     |3.10       |
++--------------------+------+--------+---------+-----------+
+|src.common.logger   |2.00  |0.00    |0.00     |1.38       |
++--------------------+------+--------+---------+-----------+
+|src.common.graph2d  |0.00  |3.95    |35.00    |34.48      |
++--------------------+------+--------+---------+-----------+
+|src.common.console  |0.00  |3.95    |5.00     |4.83       |
++--------------------+------+--------+---------+-----------+
+|src.version         |0.00  |1.32    |0.00     |0.69       |
++--------------------+------+--------+---------+-----------+
+|src.parameter       |0.00  |1.32    |0.00     |0.00       |
++--------------------+------+--------+---------+-----------+
+|src.common.graph3d  |0.00  |0.00    |15.00    |18.97      |
++--------------------+------+--------+---------+-----------+
+|src.help            |0.00  |0.00    |0.00     |3.10       |
++--------------------+------+--------+---------+-----------+
+|src.fizzbuzz        |0.00  |0.00    |0.00     |0.34       |
++--------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|bad-whitespace             |86          |
++---------------------------+------------+
+|invalid-name               |85          |
++---------------------------+------------+
+|mixed-indentation          |54          |
++---------------------------+------------+
+|no-member                  |35          |
++---------------------------+------------+
+|missing-docstring          |35          |
++---------------------------+------------+
+|bad-continuation           |25          |
++---------------------------+------------+
+|trailing-whitespace        |19          |
++---------------------------+------------+
+|line-too-long              |17          |
++---------------------------+------------+
+|wrong-import-position      |16          |
++---------------------------+------------+
+|import-error               |9           |
++---------------------------+------------+
+|too-many-arguments         |8           |
++---------------------------+------------+
+|unused-import              |7           |
++---------------------------+------------+
+|unused-argument            |6           |
++---------------------------+------------+
+|unused-variable            |4           |
++---------------------------+------------+
+|undefined-variable         |4           |
++---------------------------+------------+
+|no-self-use                |4           |
++---------------------------+------------+
+|wrong-import-order         |3           |
++---------------------------+------------+
+|useless-object-inheritance |3           |
++---------------------------+------------+
+|redefined-builtin          |3           |
++---------------------------+------------+
+|too-many-locals            |2           |
++---------------------------+------------+
+|singleton-comparison       |2           |
++---------------------------+------------+
+|assignment-from-no-return  |2           |
++---------------------------+------------+
+|useless-import-alias       |1           |
++---------------------------+------------+
+|too-many-statements        |1           |
++---------------------------+------------+
+|too-many-branches          |1           |
++---------------------------+------------+
+|too-few-public-methods     |1           |
++---------------------------+------------+
+|pointless-string-statement |1           |
++---------------------------+------------+
+|consider-using-enumerate   |1           |
++---------------------------+------------+
+|bare-except                |1           |
++---------------------------+------------+
+
+
+
+
+-------------------------------------------------------------------
+Your code has been rated at -3.53/10 (previous run: 0.09/10, -3.62)
+

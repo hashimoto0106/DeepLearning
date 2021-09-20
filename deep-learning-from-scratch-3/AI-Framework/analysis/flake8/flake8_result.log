@@ -1,0 +1,2410 @@
+../../src\config.py:8:1: F401 'os' imported but unused
+import os
+^
+../../src\config.py:41:80: E501 line too long (83 > 79 characters)
+    common.logger.app_logger.debug("translation_language:%s", translation_language)
+                                                                               ^
+../../src\config.py:42:80: E501 line too long (95 > 79 characters)
+    common.logger.app_logger.debug("translation_dictionary_dir:%s", translation_dictionary_dir)
+                                                                               ^
+../../src\config.py:43:80: E501 line too long (97 > 79 characters)
+    common.logger.app_logger.debug("translation_dictionary_file:%s", translation_dictionary_file)
+                                                                               ^
+../../src\function.py:38:5: E722 do not use bare 'except'
+    except:
+    ^
+../../src\function.py:40:80: E501 line too long (81 > 79 characters)
+        common.logger.app_logger.error('Except:%s<%s>%s', type, value, traceback)
+                                                                               ^
+../../src\help.py:22:80: E501 line too long (96 > 79 characters)
+parser.add_argument("-mode", "--mode", default="CLI", help="action mode:CLI(default) or SERVER")
+                                                                               ^
+../../src\help.py:23:80: E501 line too long (97 > 79 characters)
+parser.add_argument("-ip", "--ip", default="127.0.0.1", help="IP or hostname(default localhost)")
+                                                                               ^
+../../src\help.py:24:80: E501 line too long (86 > 79 characters)
+parser.add_argument("-port", "--port", default="514", help="port number(default 514)")
+                                                                               ^
+../../src\help.py:25:80: E501 line too long (89 > 79 characters)
+parser.add_argument("-protocol", "--protocol", default="UDP", help="TCP or UDP(default)")
+                                                                               ^
+../../src\help.py:26:80: E501 line too long (83 > 79 characters)
+parser.add_argument("-count", "--count", default="1", help="send count(default 1)")
+                                                                               ^
+../../src\help.py:27:80: E501 line too long (95 > 79 characters)
+parser.add_argument("-message", "--message", default="syslog message!!", help="syslog message")
+                                                                               ^
+../../src\help.py:33:1: E265 block comment should start with '# '
+#print(args.mode)
+^
+../../src\help.py:34:1: E265 block comment should start with '# '
+#print(args.ip)
+^
+../../src\help.py:35:1: E265 block comment should start with '# '
+#print(args.port)
+^
+../../src\help.py:36:1: E265 block comment should start with '# '
+#print(args.protocol)
+^
+../../src\help.py:37:1: E265 block comment should start with '# '
+#print(args.count)
+^
+../../src\help.py:38:1: E265 block comment should start with '# '
+#print(args.message)
+^
+../../src\main.py:12:1: E402 module level import not at top of file
+import time
+^
+../../src\main.py:13:1: E402 module level import not at top of file
+from tqdm import tqdm
+^
+../../src\main.py:14:1: E402 module level import not at top of file
+from datetime import datetime
+^
+../../src\main.py:15:1: E402 module level import not at top of file
+import numpy as np
+^
+../../src\main.py:15:1: F401 'numpy as np' imported but unused
+import numpy as np
+^
+../../src\main.py:17:1: E402 module level import not at top of file
+import config
+^
+../../src\main.py:18:1: E402 module level import not at top of file
+import common.logger
+^
+../../src\main.py:19:1: E402 module level import not at top of file
+import common.database
+^
+../../src\main.py:22:1: E402 module level import not at top of file
+import common.console
+^
+../../src\main.py:23:1: E402 module level import not at top of file
+import common.line
+^
+../../src\main.py:24:1: E402 module level import not at top of file
+import common.graph2d
+^
+../../src\main.py:25:1: E402 module level import not at top of file
+import common.graph3d
+^
+../../src\main.py:27:1: E402 module level import not at top of file
+import version
+^
+../../src\main.py:28:1: E402 module level import not at top of file
+import help
+^
+../../src\main.py:28:1: F401 'help' imported but unused
+import help
+^
+../../src\main.py:29:1: E402 module level import not at top of file
+import function
+^
+../../src\main.py:30:1: E402 module level import not at top of file
+import parameter
+^
+../../src\main.py:31:1: E402 module level import not at top of file
+import translation
+^
+../../src\main.py:52:44: E231 missing whitespace after ','
+    graph_3d = common.graph3d.graph("title","xlabel", "ylabel", "zlabel", (-10.0, 10.0), (-10.0, 10.0), (-10.0, 10.0), True)
+                                           ^
+../../src\main.py:52:80: E501 line too long (124 > 79 characters)
+    graph_3d = common.graph3d.graph("title","xlabel", "ylabel", "zlabel", (-10.0, 10.0), (-10.0, 10.0), (-10.0, 10.0), True)
+                                                                               ^
+../../src\main.py:72:1: W293 blank line contains whitespace
+    
+^
+../../src\main.py:73:1: W293 blank line contains whitespace
+    
+^
+../../src\main.py:74:5: E303 too many blank lines (2)
+    print(parameter.PARAMETER1)
+    ^
+../../src\main.py:83:80: E501 line too long (84 > 79 characters)
+    common.logger.app_logger.info('Application Ver.%s Start', version.get_version())
+                                                                               ^
+../../src\main.py:107:80: E501 line too long (87 > 79 characters)
+    print("foo," + common.console.Fore.BLUE + "bar," + common.console.Back.RED + "baz")
+                                                                               ^
+../../src\version.py:16:1: E101 indentation contains mixed spaces and tabs
+	print(VERSION)
+^
+../../src\version.py:16:1: W191 indentation contains tabs
+	print(VERSION)
+^
+../../src\version.py:16:2: E117 over-indented
+	print(VERSION)
+	^
+../../src\common\console.py:10:1: F401 'colorama.Fore' imported but unused
+from colorama import Fore, Back, Style
+^
+../../src\common\console.py:10:1: F401 'colorama.Style' imported but unused
+from colorama import Fore, Back, Style
+^
+../../src\common\console.py:10:1: F401 'colorama.Back' imported but unused
+from colorama import Fore, Back, Style
+^
+../../src\common\console.py:14:1: E302 expected 2 blank lines, found 1
+class Color:
+^
+../../src\common\console.py:15:10: E221 multiple spaces before operator
+    BLACK     = '\033[30m'
+         ^
+../../src\common\console.py:16:8: E221 multiple spaces before operator
+    RED       = '\033[31m'
+       ^
+../../src\common\console.py:17:10: E221 multiple spaces before operator
+    GREEN     = '\033[32m'
+         ^
+../../src\common\console.py:18:11: E221 multiple spaces before operator
+    YELLOW    = '\033[33m'
+          ^
+../../src\common\console.py:19:9: E221 multiple spaces before operator
+    BLUE      = '\033[34m'
+        ^
+../../src\common\console.py:20:11: E221 multiple spaces before operator
+    PURPLE    = '\033[35m'
+          ^
+../../src\common\console.py:21:9: E221 multiple spaces before operator
+    CYAN      = '\033[36m'
+        ^
+../../src\common\console.py:22:10: E221 multiple spaces before operator
+    WHITE     = '\033[37m'
+         ^
+../../src\common\console.py:23:8: E221 multiple spaces before operator
+    END       = '\033[0m'
+       ^
+../../src\common\console.py:24:9: E221 multiple spaces before operator
+    BOLD      = '\038[1m'
+        ^
+../../src\common\console.py:29:12: E221 multiple spaces before operator
+    REVERCE   = '\033[07m'  # 反転
+           ^
+../../src\common\console.py:30:30: E261 at least two spaces before inline comment
+    RED_FLASH = '\033[05;41m' #赤背景+点滅
+                             ^
+../../src\common\console.py:30:31: E262 inline comment should start with '# '
+    RED_FLASH = '\033[05;41m' #赤背景+点滅
+                              ^
+../../src\common\console.py:32:1: E265 block comment should start with '# '
+#print(Color.BLACK + "BLACK" + Color.END)
+^
+../../src\common\console.py:33:1: E265 block comment should start with '# '
+#print(Color.RED + "RED" + Color.END)
+^
+../../src\common\console.py:34:1: E265 block comment should start with '# '
+#print(Color.GREEN + "GREEN" + Color.END)
+^
+../../src\common\console.py:35:1: E265 block comment should start with '# '
+#print(Color.YELLOW + "YELLOW" + Color.END)
+^
+../../src\common\console.py:36:1: E265 block comment should start with '# '
+#print(Color.BLUE + "BLUE" + Color.END)
+^
+../../src\common\console.py:37:1: E265 block comment should start with '# '
+#print(Color.PURPLE + "PURPLE" + Color.END)
+^
+../../src\common\console.py:38:1: E265 block comment should start with '# '
+#print(Color.CYAN + "CYAN" + Color.END)
+^
+../../src\common\console.py:39:1: E265 block comment should start with '# '
+#print(Color.WHITE + "WHITE" + Color.END)
+^
+../../src\common\console.py:40:1: E265 block comment should start with '# '
+#print(Color.END + "END" + Color.END)
+^
+../../src\common\console.py:41:1: E265 block comment should start with '# '
+#print(Color.BOLD + "BOLD" + Color.END)
+^
+../../src\common\console.py:42:1: E265 block comment should start with '# '
+#print(Color.UNDERLINE + "UNDERLINE" + Color.END)
+^
+../../src\common\console.py:43:1: E265 block comment should start with '# '
+#print(Color.ACCENT + "ACCENT" + Color.END)
+^
+../../src\common\console.py:44:1: E265 block comment should start with '# '
+#print(Color.FLASH + "FLASH" + Color.END)
+^
+../../src\common\console.py:45:1: E265 block comment should start with '# '
+#print(Color.RED_FLASH + "RED_FLASH" + Color.END)
+^
+../../src\common\console.py:46:1: E265 block comment should start with '# '
+#print(Color.INVISIBLE + "INVISIBLE" + Color.END)
+^
+../../src\common\console.py:47:1: E265 block comment should start with '# '
+#print(Color.REVERCE + "REVERCE" + Color.END)
+^
+../../src\common\console.py:49:1: E266 too many leading '#' for block comment
+## 色
+^
+../../src\common\console.py:50:1: E265 block comment should start with '# '
+#for attr in dir(Fore):
+^
+../../src\common\console.py:52:80: E501 line too long (114 > 79 characters)
+#        print(getattr(Fore, attr) + "### Fore.{:<15}".format(attr) + Back.WHITE + "### Fore.{:<15}".format(attr))
+                                                                               ^
+../../src\common\console.py:53:80: E501 line too long (114 > 79 characters)
+#        print(getattr(Back, attr) + "### Back.{:<15}".format(attr) + Fore.BLACK + "### Back.{:<15}".format(attr))
+                                                                               ^
+../../src\common\console.py:55:1: E266 too many leading '#' for block comment
+## スタイル
+^
+../../src\common\console.py:56:1: E265 block comment should start with '# '
+#for attr in dir(Style):
+^
+../../src\common\database.py:31:1: E302 expected 2 blank lines, found 1
+def insert(start_time, proc_time):
+^
+../../src\common\database.py:32:80: E501 line too long (105 > 79 characters)
+    cursor.execute('INSERT INTO login VALUES (:start_time, :os, :python_version, :host, :proc_time_sec)',
+                                                                               ^
+../../src\common\database.py:33:11: E128 continuation line under-indented for visual indent
+          {'start_time': start_time, 'os': platform.platform(), 'python_version': platform.python_version(), 'host': platform.node(), 'proc_time_sec': proc_time})
+          ^
+../../src\common\database.py:33:80: E501 line too long (162 > 79 characters)
+          {'start_time': start_time, 'os': platform.platform(), 'python_version': platform.python_version(), 'host': platform.node(), 'proc_time_sec': proc_time})
+                                                                               ^
+../../src\common\database.py:34:1: W293 blank line contains whitespace
+    
+^
+../../src\common\graph2d.py:15:1: E302 expected 2 blank lines, found 1
+class graph(object):
+^
+../../src\common\graph2d.py:27:38: E251 unexpected spaces around keyword / parameter equals
+        self.fig = plt.figure(figsize = (6, 6))  # FigureとAxes
+                                     ^
+../../src\common\graph2d.py:27:40: E251 unexpected spaces around keyword / parameter equals
+        self.fig = plt.figure(figsize = (6, 6))  # FigureとAxes
+                                       ^
+../../src\common\graph2d.py:30:17: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+        if grid == True:
+                ^
+../../src\common\graph2d.py:34:5: E303 too many blank lines (2)
+    # グラフ設定
+    ^
+../../src\common\graph2d.py:35:5: E301 expected 1 blank line, found 0
+    def set_graph(self, xlabel, ylabel, xrange, yrange):
+    ^
+../../src\common\graph2d.py:49:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel(xlabel, fontsize = 11)
+                                             ^
+../../src\common\graph2d.py:49:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel(xlabel, fontsize = 11)
+                                               ^
+../../src\common\graph2d.py:50:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel(ylabel, fontsize = 11)
+                                             ^
+../../src\common\graph2d.py:50:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel(ylabel, fontsize = 11)
+                                               ^
+../../src\common\graph2d.py:57:5: E303 too many blank lines (2)
+    # 画像グラフ設定
+    ^
+../../src\common\graph2d.py:58:5: E301 expected 1 blank line, found 0
+    def set_graph_image(self, width, height):
+    ^
+../../src\common\graph2d.py:59:51: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel("Width[px]", fontsize = 11)
+                                                  ^
+../../src\common\graph2d.py:59:53: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel("Width[px]", fontsize = 11)
+                                                    ^
+../../src\common\graph2d.py:60:52: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel("Height[px]", fontsize = 11)
+                                                   ^
+../../src\common\graph2d.py:60:54: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel("Height[px]", fontsize = 11)
+                                                     ^
+../../src\common\graph2d.py:65:5: E303 too many blank lines (2)
+    # 画像グラフ設定
+    ^
+../../src\common\graph2d.py:66:5: E301 expected 1 blank line, found 0
+    def set_graph_polar(self, rmax):
+    ^
+../../src\common\graph2d.py:70:68: E251 unexpected spaces around keyword / parameter equals
+    def plot_point_polar(self, label, theta, rad, marker=".", color = "black"):
+                                                                   ^
+../../src\common\graph2d.py:70:70: E251 unexpected spaces around keyword / parameter equals
+    def plot_point_polar(self, label, theta, rad, marker=".", color = "black"):
+                                                                     ^
+../../src\common\graph2d.py:71:80: E501 line too long (86 > 79 characters)
+        self.axes.scatter(theta, rad, marker=marker, color=color, label=label)  # プロット
+                                                                               ^
+../../src\common\graph2d.py:73:80: E501 line too long (88 > 79 characters)
+#        self.axes.text(theta, rad, self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src\common\graph2d.py:76:5: E303 too many blank lines (2)
+    # ベクトル描画
+    ^
+../../src\common\graph2d.py:77:5: E301 expected 1 blank line, found 0
+    def text_value(self, p):
+    ^
+../../src\common\graph2d.py:81:5: E303 too many blank lines (2)
+    # ベクトル描画
+    ^
+../../src\common\graph2d.py:82:5: E301 expected 1 blank line, found 0
+    def plot_vector(self, label, p0, p1, color = "black"):
+    ^
+../../src\common\graph2d.py:82:47: E251 unexpected spaces around keyword / parameter equals
+    def plot_vector(self, label, p0, p1, color = "black"):
+                                              ^
+../../src\common\graph2d.py:82:49: E251 unexpected spaces around keyword / parameter equals
+    def plot_vector(self, label, p0, p1, color = "black"):
+                                                ^
+../../src\common\graph2d.py:83:59: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                          ^
+../../src\common\graph2d.py:83:61: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                            ^
+../../src\common\graph2d.py:83:75: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                          ^
+../../src\common\graph2d.py:83:77: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                            ^
+../../src\common\graph2d.py:83:80: E501 line too long (126 > 79 characters)
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                               ^
+../../src\common\graph2d.py:83:95: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                                              ^
+../../src\common\graph2d.py:83:97: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                                                ^
+../../src\common\graph2d.py:83:109: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                                                            ^
+../../src\common\graph2d.py:83:111: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                                                              ^
+../../src\common\graph2d.py:85:64: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                               ^
+../../src\common\graph2d.py:85:66: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                 ^
+../../src\common\graph2d.py:85:78: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                             ^
+../../src\common\graph2d.py:85:80: E501 line too long (90 > 79 characters)
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src\common\graph2d.py:85:80: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src\common\graph2d.py:88:5: E303 too many blank lines (2)
+    # ポイント描画
+    ^
+../../src\common\graph2d.py:89:5: E301 expected 1 blank line, found 0
+    def plot_point(self, label, p, marker=".", color = "black"):
+    ^
+../../src\common\graph2d.py:89:53: E251 unexpected spaces around keyword / parameter equals
+    def plot_point(self, label, p, marker=".", color = "black"):
+                                                    ^
+../../src\common\graph2d.py:89:55: E251 unexpected spaces around keyword / parameter equals
+    def plot_point(self, label, p, marker=".", color = "black"):
+                                                      ^
+../../src\common\graph2d.py:90:80: E501 line too long (98 > 79 characters)
+        self.axes.plot(p[0], p[1], marker=marker, markersize=10, color=color, label=label)  # プロット
+                                                                               ^
+../../src\common\graph2d.py:92:61: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                            ^
+../../src\common\graph2d.py:92:63: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                              ^
+../../src\common\graph2d.py:92:75: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                          ^
+../../src\common\graph2d.py:92:77: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                            ^
+../../src\common\graph2d.py:92:80: E501 line too long (87 > 79 characters)
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src\common\graph2d.py:95:5: E303 too many blank lines (2)
+    # 円描画
+    ^
+../../src\common\graph2d.py:96:5: E301 expected 1 blank line, found 0
+    def plot_circle(self, p, r, color = "black"):
+    ^
+../../src\common\graph2d.py:96:38: E251 unexpected spaces around keyword / parameter equals
+    def plot_circle(self, p, r, color = "black"):
+                                     ^
+../../src\common\graph2d.py:96:40: E251 unexpected spaces around keyword / parameter equals
+    def plot_circle(self, p, r, color = "black"):
+                                       ^
+../../src\common\graph2d.py:102:5: E303 too many blank lines (2)
+    # 矩形描画
+    ^
+../../src\common\graph2d.py:103:5: E301 expected 1 blank line, found 0
+    def plot_rectangle(self, p, width, height, color = "black"):
+    ^
+../../src\common\graph2d.py:103:53: E251 unexpected spaces around keyword / parameter equals
+    def plot_rectangle(self, p, width, height, color = "black"):
+                                                    ^
+../../src\common\graph2d.py:103:55: E251 unexpected spaces around keyword / parameter equals
+    def plot_rectangle(self, p, width, height, color = "black"):
+                                                      ^
+../../src\common\graph2d.py:104:80: E501 line too long (100 > 79 characters)
+        r = patches.Rectangle(xy=(p[0], p[1]), width=width, height=height, ec='#000000', fill=False)
+                                                                               ^
+../../src\common\graph2d.py:113:5: E303 too many blank lines (2)
+    # 楕円描画
+    ^
+../../src\common\graph2d.py:115:5: E301 expected 1 blank line, found 0
+    def plot_ellipse_test2(self, label, p, a, b, color = "black"):
+    ^
+../../src\common\graph2d.py:115:55: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse_test2(self, label, p, a, b, color = "black"):
+                                                      ^
+../../src\common\graph2d.py:115:57: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse_test2(self, label, p, a, b, color = "black"):
+                                                        ^
+../../src\common\graph2d.py:116:48: E261 at least two spaces before inline comment
+        t = np.linspace(-1 * np.pi, np.pi, 100) # －π～πまでの範囲
+                                               ^
+../../src\common\graph2d.py:120:1: W293 blank line contains whitespace
+        
+^
+../../src\common\graph2d.py:135:5: E301 expected 1 blank line, found 0
+    def plot_ellipse(self, label, p, a, b, rot, color = "black"):
+    ^
+../../src\common\graph2d.py:135:54: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse(self, label, p, a, b, rot, color = "black"):
+                                                     ^
+../../src\common\graph2d.py:135:56: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse(self, label, p, a, b, rot, color = "black"):
+                                                       ^
+../../src\common\graph2d.py:137:36: E203 whitespace before ','
+        Ell = np.array([a*np.cos(t) , b*np.sin(t)])  
+                                   ^
+../../src\common\graph2d.py:137:52: W291 trailing whitespace
+        Ell = np.array([a*np.cos(t) , b*np.sin(t)])  
+                                                   ^
+../../src\common\graph2d.py:138:34: E261 at least two spaces before inline comment
+        t_rot = math.radians(rot) #rotation angle
+                                 ^
+../../src\common\graph2d.py:138:35: E262 inline comment should start with '# '
+        t_rot = math.radians(rot) #rotation angle
+                                  ^
+../../src\common\graph2d.py:139:43: E203 whitespace before ','
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                          ^
+../../src\common\graph2d.py:139:63: E231 missing whitespace after ','
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                                              ^
+../../src\common\graph2d.py:139:80: E501 line too long (122 > 79 characters)
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                                                               ^
+../../src\common\graph2d.py:139:80: E203 whitespace before ','
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                                                               ^
+../../src\common\graph2d.py:139:103: E262 inline comment should start with '# '
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                                                                                      ^
+../../src\common\graph2d.py:140:1: W293 blank line contains whitespace
+             
+^
+../../src\common\graph2d.py:141:30: E231 missing whitespace after ','
+        Ell_rot = np.zeros((2,Ell.shape[1]))
+                             ^
+../../src\common\graph2d.py:143:22: E231 missing whitespace after ','
+            Ell_rot[:,i] = np.dot(R_rot,Ell[:,i])
+                     ^
+../../src\common\graph2d.py:143:40: E231 missing whitespace after ','
+            Ell_rot[:,i] = np.dot(R_rot,Ell[:,i])
+                                       ^
+../../src\common\graph2d.py:143:46: E231 missing whitespace after ','
+            Ell_rot[:,i] = np.dot(R_rot,Ell[:,i])
+                                             ^
+../../src\common\graph2d.py:145:18: E201 whitespace after '('
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                 ^
+../../src\common\graph2d.py:145:33: E231 missing whitespace after ','
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                ^
+../../src\common\graph2d.py:145:36: E203 whitespace before ','
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                   ^
+../../src\common\graph2d.py:145:53: E231 missing whitespace after ','
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                    ^
+../../src\common\graph2d.py:145:56: E203 whitespace before ','
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                       ^
+../../src\common\graph2d.py:145:64: E251 unexpected spaces around keyword / parameter equals
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                               ^
+../../src\common\graph2d.py:145:66: E251 unexpected spaces around keyword / parameter equals
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                                 ^
+../../src\common\graph2d.py:145:77: E262 inline comment should start with '# '
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                                            ^
+../../src\common\graph2d.py:145:80: E501 line too long (92 > 79 characters)
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                                               ^
+../../src\common\graph2d.py:148:5: E303 too many blank lines (2)
+    # 楕円描画
+    ^
+../../src\common\graph2d.py:149:5: E301 expected 1 blank line, found 0
+    def plot_ellipse_test(self, p, width, height, color = "black"):
+    ^
+../../src\common\graph2d.py:149:56: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse_test(self, p, width, height, color = "black"):
+                                                       ^
+../../src\common\graph2d.py:149:58: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse_test(self, p, width, height, color = "black"):
+                                                         ^
+../../src\common\graph2d.py:150:80: E501 line too long (98 > 79 characters)
+        r = patches.Ellipse(xy=(p[0], p[1]), width=width, height=height, ec='#000000', fill=False)
+                                                                               ^
+../../src\common\graph2d.py:154:3: E114 indentation is not a multiple of four (comment)
+  # 2次元ガウス分布描画
+  ^
+../../src\common\graph2d.py:154:3: E303 too many blank lines (2)
+  # 2次元ガウス分布描画
+  ^
+../../src\common\graph2d.py:155:5: E301 expected 1 blank line, found 0
+    def multivariate_normal(self, mean, cov):
+    ^
+../../src\common\graph2d.py:157:10: E231 missing whitespace after ','
+        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))
+         ^
+../../src\common\graph2d.py:157:54: E231 missing whitespace after ','
+        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))
+                                                     ^
+../../src\common\graph2d.py:157:76: E231 missing whitespace after ','
+        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))
+                                                                           ^
+../../src\common\graph2d.py:157:80: E501 line too long (127 > 79 characters)
+        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))
+                                                                               ^
+../../src\common\graph2d.py:158:27: E231 missing whitespace after ','
+        pos = np.dstack((x,y))
+                          ^
+../../src\common\graph2d.py:159:49: E231 missing whitespace after ','
+        z = scipy.stats.multivariate_normal(mean,cov).pdf(pos)
+                                                ^
+../../src\common\graph2d.py:160:29: E231 missing whitespace after ','
+        self.axes.contourf(x,y,z)
+                            ^
+../../src\common\graph2d.py:160:31: E231 missing whitespace after ','
+        self.axes.contourf(x,y,z)
+                              ^
+../../src\common\graph3d.py:13:1: E302 expected 2 blank lines, found 1
+class graph(object):
+^
+../../src\common\graph3d.py:15:80: E501 line too long (84 > 79 characters)
+    def __init__(self, title, xlabel, ylabel, zlabel, xrange, yrange, zrange, grid):
+                                                                               ^
+../../src\common\graph3d.py:33:1: W293 blank line contains whitespace
+        """
+        Constructor
+
+        Parameters
+        ----------
+        title : string
+            Graph Title
+        xlabel : string
+            X Axis Label
+        ylabel : string
+            Y Axis Label
+        xrange : int
+            X Axis Minimum - Maximum
+        yrange : int
+            Y Axis Minimum - Maximum
+        grid : bool
+            Grid Enable
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src\common\graph3d.py:38:38: E251 unexpected spaces around keyword / parameter equals
+        self.fig = plt.figure(figsize = (6, 6))  # FigureとAxes
+                                     ^
+../../src\common\graph3d.py:38:40: E251 unexpected spaces around keyword / parameter equals
+        self.fig = plt.figure(figsize = (6, 6))  # FigureとAxes
+                                       ^
+../../src\common\graph3d.py:42:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel(xlabel, fontsize = 11)
+                                             ^
+../../src\common\graph3d.py:42:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel(xlabel, fontsize = 11)
+                                               ^
+../../src\common\graph3d.py:43:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel(ylabel, fontsize = 11)
+                                             ^
+../../src\common\graph3d.py:43:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel(ylabel, fontsize = 11)
+                                               ^
+../../src\common\graph3d.py:44:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_zlabel(zlabel, fontsize = 11)
+                                             ^
+../../src\common\graph3d.py:44:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_zlabel(zlabel, fontsize = 11)
+                                               ^
+../../src\common\graph3d.py:53:1: E266 too many leading '#' for block comment
+##            self.axes.axis(zmin = zrange[0], zmax = zrange[1])
+^
+../../src\common\graph3d.py:54:17: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+        if grid == True:
+                ^
+../../src\common\graph3d.py:58:5: E303 too many blank lines (2)
+    def set_coodinate(self, org, x_axis, y_axis, z_axis):
+    ^
+../../src\common\graph3d.py:77:80: E501 line too long (136 > 79 characters)
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                               ^
+../../src\common\graph3d.py:77:88: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                       ^
+../../src\common\graph3d.py:77:90: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                         ^
+../../src\common\graph3d.py:77:106: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                         ^
+../../src\common\graph3d.py:77:108: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                           ^
+../../src\common\graph3d.py:77:130: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                 ^
+../../src\common\graph3d.py:77:132: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                   ^
+../../src\common\graph3d.py:78:80: E501 line too long (136 > 79 characters)
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                               ^
+../../src\common\graph3d.py:78:88: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                       ^
+../../src\common\graph3d.py:78:90: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                         ^
+../../src\common\graph3d.py:78:106: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                         ^
+../../src\common\graph3d.py:78:108: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                           ^
+../../src\common\graph3d.py:78:130: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                 ^
+../../src\common\graph3d.py:78:132: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                   ^
+../../src\common\graph3d.py:79:80: E501 line too long (136 > 79 characters)
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                               ^
+../../src\common\graph3d.py:79:88: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                       ^
+../../src\common\graph3d.py:79:90: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                         ^
+../../src\common\graph3d.py:79:106: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                         ^
+../../src\common\graph3d.py:79:108: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                           ^
+../../src\common\graph3d.py:79:130: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                 ^
+../../src\common\graph3d.py:79:132: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                   ^
+../../src\common\graph3d.py:81:67: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                  ^
+../../src\common\graph3d.py:81:69: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                    ^
+../../src\common\graph3d.py:81:80: E501 line too long (96 > 79 characters)
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                               ^
+../../src\common\graph3d.py:81:83: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                                  ^
+../../src\common\graph3d.py:81:85: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                                    ^
+../../src\common\graph3d.py:82:67: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                  ^
+../../src\common\graph3d.py:82:69: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                    ^
+../../src\common\graph3d.py:82:80: E501 line too long (96 > 79 characters)
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                               ^
+../../src\common\graph3d.py:82:83: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                                  ^
+../../src\common\graph3d.py:82:85: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                                    ^
+../../src\common\graph3d.py:83:67: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                  ^
+../../src\common\graph3d.py:83:69: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                    ^
+../../src\common\graph3d.py:83:80: E501 line too long (96 > 79 characters)
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                               ^
+../../src\common\graph3d.py:83:83: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                                  ^
+../../src\common\graph3d.py:83:85: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                                    ^
+../../src\common\graph3d.py:85:1: W293 blank line contains whitespace
+        
+^
+../../src\common\graph3d.py:86:5: E303 too many blank lines (2)
+    def text_value(self, p):
+    ^
+../../src\common\graph3d.py:89:1: W293 blank line contains whitespace
+        """
+        (X, Y, Z)形式テキスト変換
+        
+        Parameters
+        ----------
+        p : float[3]
+            3次元座標
+            
+        Returns
+        ----------
+        text : string
+            (X, Y, Z)形式テキスト
+        """
+^
+../../src\common\graph3d.py:94:1: W293 blank line contains whitespace
+        """
+        (X, Y, Z)形式テキスト変換
+        
+        Parameters
+        ----------
+        p : float[3]
+            3次元座標
+            
+        Returns
+        ----------
+        text : string
+            (X, Y, Z)形式テキスト
+        """
+^
+../../src\common\graph3d.py:104:5: E303 too many blank lines (2)
+    def plot_vector(self, label, p0, p1, color = "black"):
+    ^
+../../src\common\graph3d.py:104:47: E251 unexpected spaces around keyword / parameter equals
+    def plot_vector(self, label, p0, p1, color = "black"):
+                                              ^
+../../src\common\graph3d.py:104:49: E251 unexpected spaces around keyword / parameter equals
+    def plot_vector(self, label, p0, p1, color = "black"):
+                                                ^
+../../src\common\graph3d.py:107:1: W293 blank line contains whitespace
+        """
+        ベクトル描画
+        
+        Parameters
+        ----------
+        label : string
+            凡例
+        p0 : float[3]
+            3次元座標　始点
+        p1 : float[3]
+            3次元座標　終点
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src\common\graph3d.py:118:1: W293 blank line contains whitespace
+        """
+        ベクトル描画
+        
+        Parameters
+        ----------
+        label : string
+            凡例
+        p0 : float[3]
+            3次元座標　始点
+        p1 : float[3]
+            3次元座標　終点
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src\common\graph3d.py:123:73: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                        ^
+../../src\common\graph3d.py:123:75: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                          ^
+../../src\common\graph3d.py:123:80: E501 line too long (132 > 79 characters)
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                               ^
+../../src\common\graph3d.py:123:89: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                                        ^
+../../src\common\graph3d.py:123:91: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                                          ^
+../../src\common\graph3d.py:123:113: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                                                                ^
+../../src\common\graph3d.py:123:115: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                                                                  ^
+../../src\common\graph3d.py:125:71: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                      ^
+../../src\common\graph3d.py:125:73: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                        ^
+../../src\common\graph3d.py:125:80: E501 line too long (97 > 79 characters)
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src\common\graph3d.py:125:85: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                                    ^
+../../src\common\graph3d.py:125:87: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                                      ^
+../../src\common\graph3d.py:128:5: E303 too many blank lines (2)
+    def plot_point(self, label, p, marker=".", color = "black"):
+    ^
+../../src\common\graph3d.py:128:53: E251 unexpected spaces around keyword / parameter equals
+    def plot_point(self, label, p, marker=".", color = "black"):
+                                                    ^
+../../src\common\graph3d.py:128:55: E251 unexpected spaces around keyword / parameter equals
+    def plot_point(self, label, p, marker=".", color = "black"):
+                                                      ^
+../../src\common\graph3d.py:131:1: W293 blank line contains whitespace
+        """
+        ポイント描画
+        
+        Parameters
+        ----------
+        label : string
+            凡例
+        p : float[3]
+            3次元座標
+        marker : string
+            マーカー
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src\common\graph3d.py:142:1: W293 blank line contains whitespace
+        """
+        ポイント描画
+        
+        Parameters
+        ----------
+        label : string
+            凡例
+        p : float[3]
+            3次元座標
+        marker : string
+            マーカー
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src\common\graph3d.py:147:80: E501 line too long (92 > 79 characters)
+        self.axes.scatter(p[0], p[1], p[2], marker=marker, color=color, label=label)  # プロット
+                                                                               ^
+../../src\common\graph3d.py:149:67: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                  ^
+../../src\common\graph3d.py:149:69: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                    ^
+../../src\common\graph3d.py:149:80: E501 line too long (93 > 79 characters)
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src\common\graph3d.py:149:81: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                                ^
+../../src\common\graph3d.py:149:83: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                                  ^
+../../src\common\graph3d.py:153:5: E303 too many blank lines (3)
+    def plot_sphere(self, org, r, color = "black"):
+    ^
+../../src\common\graph3d.py:153:40: E251 unexpected spaces around keyword / parameter equals
+    def plot_sphere(self, org, r, color = "black"):
+                                       ^
+../../src\common\graph3d.py:153:42: E251 unexpected spaces around keyword / parameter equals
+    def plot_sphere(self, org, r, color = "black"):
+                                         ^
+../../src\common\graph3d.py:156:1: W293 blank line contains whitespace
+        """
+        球描画
+        
+        Parameters
+        ----------
+        org : float[3]
+            球原点3次元座標
+        r : float
+            球半径
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src\common\graph3d.py:165:1: W293 blank line contains whitespace
+        """
+        球描画
+        
+        Parameters
+        ----------
+        org : float[3]
+            球原点3次元座標
+        r : float
+            球半径
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src\common\graph3d.py:170:49: E261 at least two spaces before inline comment
+        theta_1_0 = np.linspace(0, 2*np.pi, 100) # θ_1は[0,π/2]の値をとる
+                                                ^
+../../src\common\graph3d.py:171:49: E261 at least two spaces before inline comment
+        theta_2_0 = np.linspace(0, 2*np.pi, 100) # θ_2は[0,π/2]の値をとる
+                                                ^
+../../src\common\graph3d.py:172:61: E261 at least two spaces before inline comment
+        theta_1, theta_2 = np.meshgrid(theta_1_0, theta_2_0) # ２次元配列に変換
+                                                            ^
+../../src\common\graph3d.py:173:59: E261 at least two spaces before inline comment
+        x = org[0] + (np.cos(theta_2)*np.sin(theta_1) * r) # xの極座標表示
+                                                          ^
+../../src\common\graph3d.py:174:59: E261 at least two spaces before inline comment
+        y = org[1] + (np.sin(theta_2)*np.sin(theta_1) * r) # yの極座標表示
+                                                          ^
+../../src\common\graph3d.py:175:43: E261 at least two spaces before inline comment
+        z = org[2] + (np.cos(theta_1) * r) # zの極座標表示
+                                          ^
+../../src\common\graph3d.py:176:57: E251 unexpected spaces around keyword / parameter equals
+        self.axes.plot_surface(x, y, z, alpha=0.2, color = color) # 球を３次元空間に表示
+                                                        ^
+../../src\common\graph3d.py:176:59: E251 unexpected spaces around keyword / parameter equals
+        self.axes.plot_surface(x, y, z, alpha=0.2, color = color) # 球を３次元空間に表示
+                                                          ^
+../../src\common\graph3d.py:176:66: E261 at least two spaces before inline comment
+        self.axes.plot_surface(x, y, z, alpha=0.2, color = color) # 球を３次元空間に表示
+                                                                 ^
+../../src\common\line.py:17:5: F841 local variable 'line_notify' is assigned to but never used
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers)
+    ^
+../../src\common\line.py:17:80: E501 line too long (86 > 79 characters)
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers)
+                                                                               ^
+../../src\common\line.py:23:5: F841 local variable 'line_notify' is assigned to but never used
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers, files=files)
+    ^
+../../src\common\line.py:23:80: E501 line too long (99 > 79 characters)
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers, files=files)
+                                                                               ^
+../../src\common\line.py:29:5: F841 local variable 'line_notify' is assigned to but never used
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers, files=files)
+    ^
+../../src\common\line.py:29:80: E501 line too long (99 > 79 characters)
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers, files=files)
+                                                                               ^
+../../src\common\plot.py:10:1: F401 'mpl_toolkits.mplot3d.Axes3D' imported but unused
+from mpl_toolkits.mplot3d import Axes3D
+^
+../../src\common\plot.py:48:80: E501 line too long (107 > 79 characters)
+def show_3D_grahp(title, x, y, z, xlabel, ylabel, zlabel, legend, xmin, xmax, ymin, ymax, zmin, zmax, arg):
+                                                                               ^
+../../src\common\plot.py:123:80: E501 line too long (82 > 79 characters)
+                normed=False,  # True に設定すると正規化 (合計値が 1 になるように変換)。 (デフォルト値: False)
+                                                                               ^
+../../src\common\plot.py:124:33: W291 trailing whitespace
+                weights=None,  # 
+                                ^
+../../src\common\plot.py:127:80: E501 line too long (140 > 79 characters)
+                histtype='bar',  # ‘bar’ (通常のヒストグラム), ‘barstacked’ (積み上げヒストグラム), ‘step’ (線), ‘stepfilled ‘ (塗りつぶしありの線) から選択。 (デフォルト値: ‘bar’)
+                                                                               ^
+../../src\common\plot.py:128:80: E501 line too long (102 > 79 characters)
+                align='mid',  # 各棒の中心を X 軸目盛上のどの横位置で出力するか。 ‘left’, ‘mid’, ‘right’ から選択。(デフォルト値: ‘mid’)
+                                                                               ^
+../../src\common\plot.py:129:80: E501 line too long (112 > 79 characters)
+                orientation='vertical',  # 棒の方向。’horizontal’ (水平方向), ‘vertical’ (垂直方向) から選択。(デフォルト値: ‘vertical’)
+                                                                               ^
+../../src\common\plot.py:134:80: E501 line too long (82 > 79 characters)
+                stacked=False,  # True に設定すると積み上げヒストグラムで出力します。False に設定すると、横に並べて出力
+                                                                               ^
+../../src\common\plot.py:135:30: W291 trailing whitespace
+                hold=None,  # 
+                             ^
+../../src\common\plot.py:136:29: W291 trailing whitespace
+                data=None  # 
+                            ^
+../../src\common\plot.py:184:80: E501 line too long (104 > 79 characters)
+def show_3D_vector(title, X, Y, Z, U, V, W, xlabel, ylabel, zlabel, xmin, xmax, ymin, ymax, zmin, zmax):
+                                                                               ^
+../../src\common\rsyslog.py:11:1: E302 expected 2 blank lines, found 1
+def open():
+^
+../../src\common\rsyslog.py:12:1: W191 indentation contains tabs
+	# opetion
+^
+../../src\common\rsyslog.py:13:1: W191 indentation contains tabs
+	if config.syslog_option == "LOG_PID":
+^
+../../src\common\rsyslog.py:14:1: W191 indentation contains tabs
+		option = common.syslog.LOG_PID
+^
+../../src\common\rsyslog.py:15:1: W191 indentation contains tabs
+	elif config.syslog_option == "LOG_CONS":
+^
+../../src\common\rsyslog.py:16:1: W191 indentation contains tabs
+		option = common.syslog.LOG_CONS
+^
+../../src\common\rsyslog.py:17:1: W191 indentation contains tabs
+	elif config.syslog_option == "LOG_NDELAY":
+^
+../../src\common\rsyslog.py:18:1: W191 indentation contains tabs
+		option = common.syslog.LOG_NDELAY
+^
+../../src\common\rsyslog.py:19:1: W191 indentation contains tabs
+	elif config.syslog_option == "LOG_ODELAY":
+^
+../../src\common\rsyslog.py:20:1: W191 indentation contains tabs
+		option = common.syslog.LOG_ODELAY
+^
+../../src\common\rsyslog.py:21:1: W191 indentation contains tabs
+	elif config.syslog_option == "LOG_NOWAIT":
+^
+../../src\common\rsyslog.py:22:1: W191 indentation contains tabs
+		option = common.syslog.LOG_NOWAIT
+^
+../../src\common\rsyslog.py:23:1: W191 indentation contains tabs
+	else:
+^
+../../src\common\rsyslog.py:24:1: W191 indentation contains tabs
+		option = LOG_PID
+^
+../../src\common\rsyslog.py:24:12: F821 undefined name 'LOG_PID'
+		option = LOG_PID
+		         ^
+../../src\common\rsyslog.py:26:1: W191 indentation contains tabs
+	# facility
+^
+../../src\common\rsyslog.py:27:1: W191 indentation contains tabs
+	if config.syslog_facility == "LOG_LOCAL0":
+^
+../../src\common\rsyslog.py:28:1: W191 indentation contains tabs
+		fclty = syslog.LOG_LOCAL0
+^
+../../src\common\rsyslog.py:28:11: F821 undefined name 'syslog'
+		fclty = syslog.LOG_LOCAL0
+		        ^
+../../src\common\rsyslog.py:29:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL1":
+^
+../../src\common\rsyslog.py:30:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL1
+^
+../../src\common\rsyslog.py:31:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL2":
+^
+../../src\common\rsyslog.py:32:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL2
+^
+../../src\common\rsyslog.py:33:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL3":
+^
+../../src\common\rsyslog.py:34:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL3
+^
+../../src\common\rsyslog.py:35:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL4":
+^
+../../src\common\rsyslog.py:36:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL4
+^
+../../src\common\rsyslog.py:37:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL5":
+^
+../../src\common\rsyslog.py:38:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL5
+^
+../../src\common\rsyslog.py:39:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL6":
+^
+../../src\common\rsyslog.py:40:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL6
+^
+../../src\common\rsyslog.py:41:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL7":
+^
+../../src\common\rsyslog.py:42:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL7
+^
+../../src\common\rsyslog.py:43:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_SYSLOG":
+^
+../../src\common\rsyslog.py:44:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_SYSLOG
+^
+../../src\common\rsyslog.py:45:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_KERN":
+^
+../../src\common\rsyslog.py:46:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_KERN
+^
+../../src\common\rsyslog.py:47:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_USER":
+^
+../../src\common\rsyslog.py:48:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_USER
+^
+../../src\common\rsyslog.py:49:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_MAIL":
+^
+../../src\common\rsyslog.py:50:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_MAIL
+^
+../../src\common\rsyslog.py:51:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_DAEMON":
+^
+../../src\common\rsyslog.py:52:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_DAEMON
+^
+../../src\common\rsyslog.py:53:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_AUTH":
+^
+../../src\common\rsyslog.py:54:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_AUTH
+^
+../../src\common\rsyslog.py:55:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LPR":
+^
+../../src\common\rsyslog.py:56:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LPR
+^
+../../src\common\rsyslog.py:57:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_NEWS":
+^
+../../src\common\rsyslog.py:58:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_NEWS
+^
+../../src\common\rsyslog.py:59:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_UUCP":
+^
+../../src\common\rsyslog.py:60:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_UUCP
+^
+../../src\common\rsyslog.py:61:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_CRON":
+^
+../../src\common\rsyslog.py:62:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_CRON
+^
+../../src\common\rsyslog.py:63:1: W191 indentation contains tabs
+	else:
+^
+../../src\common\rsyslog.py:64:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL0
+^
+../../src\common\rsyslog.py:66:1: W191 indentation contains tabs
+	common.syslog.openlog(logoption = option, facility = fclty)
+^
+../../src\common\rsyslog.py:66:33: E251 unexpected spaces around keyword / parameter equals
+	common.syslog.openlog(logoption = option, facility = fclty)
+	                               ^
+../../src\common\rsyslog.py:66:35: E251 unexpected spaces around keyword / parameter equals
+	common.syslog.openlog(logoption = option, facility = fclty)
+	                                 ^
+../../src\common\rsyslog.py:66:52: E251 unexpected spaces around keyword / parameter equals
+	common.syslog.openlog(logoption = option, facility = fclty)
+	                                                  ^
+../../src\common\rsyslog.py:66:54: E251 unexpected spaces around keyword / parameter equals
+	common.syslog.openlog(logoption = option, facility = fclty)
+	                                                    ^
+../../src\common\rsyslog.py:70:1: W191 indentation contains tabs
+	syslog.syslog(priority, message)
+^
+../../src\common\rsyslog.py:70:2: F821 undefined name 'syslog'
+	syslog.syslog(priority, message)
+	^
+../../src\common\rsyslog.py:72:1: E302 expected 2 blank lines, found 1
+def close():
+^
+../../src\common\rsyslog.py:73:1: W191 indentation contains tabs
+	syslog.closelog()
+^
+../../src\common\rsyslog.py:73:2: F821 undefined name 'syslog'
+	syslog.closelog()
+	^
+../../src/common\console.py:10:1: F401 'colorama.Fore' imported but unused
+from colorama import Fore, Back, Style
+^
+../../src/common\console.py:10:1: F401 'colorama.Style' imported but unused
+from colorama import Fore, Back, Style
+^
+../../src/common\console.py:10:1: F401 'colorama.Back' imported but unused
+from colorama import Fore, Back, Style
+^
+../../src/common\console.py:14:1: E302 expected 2 blank lines, found 1
+class Color:
+^
+../../src/common\console.py:15:10: E221 multiple spaces before operator
+    BLACK     = '\033[30m'
+         ^
+../../src/common\console.py:16:8: E221 multiple spaces before operator
+    RED       = '\033[31m'
+       ^
+../../src/common\console.py:17:10: E221 multiple spaces before operator
+    GREEN     = '\033[32m'
+         ^
+../../src/common\console.py:18:11: E221 multiple spaces before operator
+    YELLOW    = '\033[33m'
+          ^
+../../src/common\console.py:19:9: E221 multiple spaces before operator
+    BLUE      = '\033[34m'
+        ^
+../../src/common\console.py:20:11: E221 multiple spaces before operator
+    PURPLE    = '\033[35m'
+          ^
+../../src/common\console.py:21:9: E221 multiple spaces before operator
+    CYAN      = '\033[36m'
+        ^
+../../src/common\console.py:22:10: E221 multiple spaces before operator
+    WHITE     = '\033[37m'
+         ^
+../../src/common\console.py:23:8: E221 multiple spaces before operator
+    END       = '\033[0m'
+       ^
+../../src/common\console.py:24:9: E221 multiple spaces before operator
+    BOLD      = '\038[1m'
+        ^
+../../src/common\console.py:29:12: E221 multiple spaces before operator
+    REVERCE   = '\033[07m'  # 反転
+           ^
+../../src/common\console.py:30:30: E261 at least two spaces before inline comment
+    RED_FLASH = '\033[05;41m' #赤背景+点滅
+                             ^
+../../src/common\console.py:30:31: E262 inline comment should start with '# '
+    RED_FLASH = '\033[05;41m' #赤背景+点滅
+                              ^
+../../src/common\console.py:32:1: E265 block comment should start with '# '
+#print(Color.BLACK + "BLACK" + Color.END)
+^
+../../src/common\console.py:33:1: E265 block comment should start with '# '
+#print(Color.RED + "RED" + Color.END)
+^
+../../src/common\console.py:34:1: E265 block comment should start with '# '
+#print(Color.GREEN + "GREEN" + Color.END)
+^
+../../src/common\console.py:35:1: E265 block comment should start with '# '
+#print(Color.YELLOW + "YELLOW" + Color.END)
+^
+../../src/common\console.py:36:1: E265 block comment should start with '# '
+#print(Color.BLUE + "BLUE" + Color.END)
+^
+../../src/common\console.py:37:1: E265 block comment should start with '# '
+#print(Color.PURPLE + "PURPLE" + Color.END)
+^
+../../src/common\console.py:38:1: E265 block comment should start with '# '
+#print(Color.CYAN + "CYAN" + Color.END)
+^
+../../src/common\console.py:39:1: E265 block comment should start with '# '
+#print(Color.WHITE + "WHITE" + Color.END)
+^
+../../src/common\console.py:40:1: E265 block comment should start with '# '
+#print(Color.END + "END" + Color.END)
+^
+../../src/common\console.py:41:1: E265 block comment should start with '# '
+#print(Color.BOLD + "BOLD" + Color.END)
+^
+../../src/common\console.py:42:1: E265 block comment should start with '# '
+#print(Color.UNDERLINE + "UNDERLINE" + Color.END)
+^
+../../src/common\console.py:43:1: E265 block comment should start with '# '
+#print(Color.ACCENT + "ACCENT" + Color.END)
+^
+../../src/common\console.py:44:1: E265 block comment should start with '# '
+#print(Color.FLASH + "FLASH" + Color.END)
+^
+../../src/common\console.py:45:1: E265 block comment should start with '# '
+#print(Color.RED_FLASH + "RED_FLASH" + Color.END)
+^
+../../src/common\console.py:46:1: E265 block comment should start with '# '
+#print(Color.INVISIBLE + "INVISIBLE" + Color.END)
+^
+../../src/common\console.py:47:1: E265 block comment should start with '# '
+#print(Color.REVERCE + "REVERCE" + Color.END)
+^
+../../src/common\console.py:49:1: E266 too many leading '#' for block comment
+## 色
+^
+../../src/common\console.py:50:1: E265 block comment should start with '# '
+#for attr in dir(Fore):
+^
+../../src/common\console.py:52:80: E501 line too long (114 > 79 characters)
+#        print(getattr(Fore, attr) + "### Fore.{:<15}".format(attr) + Back.WHITE + "### Fore.{:<15}".format(attr))
+                                                                               ^
+../../src/common\console.py:53:80: E501 line too long (114 > 79 characters)
+#        print(getattr(Back, attr) + "### Back.{:<15}".format(attr) + Fore.BLACK + "### Back.{:<15}".format(attr))
+                                                                               ^
+../../src/common\console.py:55:1: E266 too many leading '#' for block comment
+## スタイル
+^
+../../src/common\console.py:56:1: E265 block comment should start with '# '
+#for attr in dir(Style):
+^
+../../src/common\database.py:31:1: E302 expected 2 blank lines, found 1
+def insert(start_time, proc_time):
+^
+../../src/common\database.py:32:80: E501 line too long (105 > 79 characters)
+    cursor.execute('INSERT INTO login VALUES (:start_time, :os, :python_version, :host, :proc_time_sec)',
+                                                                               ^
+../../src/common\database.py:33:11: E128 continuation line under-indented for visual indent
+          {'start_time': start_time, 'os': platform.platform(), 'python_version': platform.python_version(), 'host': platform.node(), 'proc_time_sec': proc_time})
+          ^
+../../src/common\database.py:33:80: E501 line too long (162 > 79 characters)
+          {'start_time': start_time, 'os': platform.platform(), 'python_version': platform.python_version(), 'host': platform.node(), 'proc_time_sec': proc_time})
+                                                                               ^
+../../src/common\database.py:34:1: W293 blank line contains whitespace
+    
+^
+../../src/common\graph2d.py:15:1: E302 expected 2 blank lines, found 1
+class graph(object):
+^
+../../src/common\graph2d.py:27:38: E251 unexpected spaces around keyword / parameter equals
+        self.fig = plt.figure(figsize = (6, 6))  # FigureとAxes
+                                     ^
+../../src/common\graph2d.py:27:40: E251 unexpected spaces around keyword / parameter equals
+        self.fig = plt.figure(figsize = (6, 6))  # FigureとAxes
+                                       ^
+../../src/common\graph2d.py:30:17: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+        if grid == True:
+                ^
+../../src/common\graph2d.py:34:5: E303 too many blank lines (2)
+    # グラフ設定
+    ^
+../../src/common\graph2d.py:35:5: E301 expected 1 blank line, found 0
+    def set_graph(self, xlabel, ylabel, xrange, yrange):
+    ^
+../../src/common\graph2d.py:49:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel(xlabel, fontsize = 11)
+                                             ^
+../../src/common\graph2d.py:49:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel(xlabel, fontsize = 11)
+                                               ^
+../../src/common\graph2d.py:50:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel(ylabel, fontsize = 11)
+                                             ^
+../../src/common\graph2d.py:50:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel(ylabel, fontsize = 11)
+                                               ^
+../../src/common\graph2d.py:57:5: E303 too many blank lines (2)
+    # 画像グラフ設定
+    ^
+../../src/common\graph2d.py:58:5: E301 expected 1 blank line, found 0
+    def set_graph_image(self, width, height):
+    ^
+../../src/common\graph2d.py:59:51: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel("Width[px]", fontsize = 11)
+                                                  ^
+../../src/common\graph2d.py:59:53: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel("Width[px]", fontsize = 11)
+                                                    ^
+../../src/common\graph2d.py:60:52: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel("Height[px]", fontsize = 11)
+                                                   ^
+../../src/common\graph2d.py:60:54: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel("Height[px]", fontsize = 11)
+                                                     ^
+../../src/common\graph2d.py:65:5: E303 too many blank lines (2)
+    # 画像グラフ設定
+    ^
+../../src/common\graph2d.py:66:5: E301 expected 1 blank line, found 0
+    def set_graph_polar(self, rmax):
+    ^
+../../src/common\graph2d.py:70:68: E251 unexpected spaces around keyword / parameter equals
+    def plot_point_polar(self, label, theta, rad, marker=".", color = "black"):
+                                                                   ^
+../../src/common\graph2d.py:70:70: E251 unexpected spaces around keyword / parameter equals
+    def plot_point_polar(self, label, theta, rad, marker=".", color = "black"):
+                                                                     ^
+../../src/common\graph2d.py:71:80: E501 line too long (86 > 79 characters)
+        self.axes.scatter(theta, rad, marker=marker, color=color, label=label)  # プロット
+                                                                               ^
+../../src/common\graph2d.py:73:80: E501 line too long (88 > 79 characters)
+#        self.axes.text(theta, rad, self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src/common\graph2d.py:76:5: E303 too many blank lines (2)
+    # ベクトル描画
+    ^
+../../src/common\graph2d.py:77:5: E301 expected 1 blank line, found 0
+    def text_value(self, p):
+    ^
+../../src/common\graph2d.py:81:5: E303 too many blank lines (2)
+    # ベクトル描画
+    ^
+../../src/common\graph2d.py:82:5: E301 expected 1 blank line, found 0
+    def plot_vector(self, label, p0, p1, color = "black"):
+    ^
+../../src/common\graph2d.py:82:47: E251 unexpected spaces around keyword / parameter equals
+    def plot_vector(self, label, p0, p1, color = "black"):
+                                              ^
+../../src/common\graph2d.py:82:49: E251 unexpected spaces around keyword / parameter equals
+    def plot_vector(self, label, p0, p1, color = "black"):
+                                                ^
+../../src/common\graph2d.py:83:59: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                          ^
+../../src/common\graph2d.py:83:61: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                            ^
+../../src/common\graph2d.py:83:75: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                          ^
+../../src/common\graph2d.py:83:77: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                            ^
+../../src/common\graph2d.py:83:80: E501 line too long (126 > 79 characters)
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                               ^
+../../src/common\graph2d.py:83:95: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                                              ^
+../../src/common\graph2d.py:83:97: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                                                ^
+../../src/common\graph2d.py:83:109: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                                                            ^
+../../src/common\graph2d.py:83:111: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p1[0], p1[1], color = color, angles = 'xy', scale_units = 'xy', scale = 1, label=label)
+                                                                                                              ^
+../../src/common\graph2d.py:85:64: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                               ^
+../../src/common\graph2d.py:85:66: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                 ^
+../../src/common\graph2d.py:85:78: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                             ^
+../../src/common\graph2d.py:85:80: E501 line too long (90 > 79 characters)
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src/common\graph2d.py:85:80: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src/common\graph2d.py:88:5: E303 too many blank lines (2)
+    # ポイント描画
+    ^
+../../src/common\graph2d.py:89:5: E301 expected 1 blank line, found 0
+    def plot_point(self, label, p, marker=".", color = "black"):
+    ^
+../../src/common\graph2d.py:89:53: E251 unexpected spaces around keyword / parameter equals
+    def plot_point(self, label, p, marker=".", color = "black"):
+                                                    ^
+../../src/common\graph2d.py:89:55: E251 unexpected spaces around keyword / parameter equals
+    def plot_point(self, label, p, marker=".", color = "black"):
+                                                      ^
+../../src/common\graph2d.py:90:80: E501 line too long (98 > 79 characters)
+        self.axes.plot(p[0], p[1], marker=marker, markersize=10, color=color, label=label)  # プロット
+                                                                               ^
+../../src/common\graph2d.py:92:61: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                            ^
+../../src/common\graph2d.py:92:63: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                              ^
+../../src/common\graph2d.py:92:75: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                          ^
+../../src/common\graph2d.py:92:77: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                            ^
+../../src/common\graph2d.py:92:80: E501 line too long (87 > 79 characters)
+        self.axes.text(p[0], p[1], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src/common\graph2d.py:95:5: E303 too many blank lines (2)
+    # 円描画
+    ^
+../../src/common\graph2d.py:96:5: E301 expected 1 blank line, found 0
+    def plot_circle(self, p, r, color = "black"):
+    ^
+../../src/common\graph2d.py:96:38: E251 unexpected spaces around keyword / parameter equals
+    def plot_circle(self, p, r, color = "black"):
+                                     ^
+../../src/common\graph2d.py:96:40: E251 unexpected spaces around keyword / parameter equals
+    def plot_circle(self, p, r, color = "black"):
+                                       ^
+../../src/common\graph2d.py:102:5: E303 too many blank lines (2)
+    # 矩形描画
+    ^
+../../src/common\graph2d.py:103:5: E301 expected 1 blank line, found 0
+    def plot_rectangle(self, p, width, height, color = "black"):
+    ^
+../../src/common\graph2d.py:103:53: E251 unexpected spaces around keyword / parameter equals
+    def plot_rectangle(self, p, width, height, color = "black"):
+                                                    ^
+../../src/common\graph2d.py:103:55: E251 unexpected spaces around keyword / parameter equals
+    def plot_rectangle(self, p, width, height, color = "black"):
+                                                      ^
+../../src/common\graph2d.py:104:80: E501 line too long (100 > 79 characters)
+        r = patches.Rectangle(xy=(p[0], p[1]), width=width, height=height, ec='#000000', fill=False)
+                                                                               ^
+../../src/common\graph2d.py:113:5: E303 too many blank lines (2)
+    # 楕円描画
+    ^
+../../src/common\graph2d.py:115:5: E301 expected 1 blank line, found 0
+    def plot_ellipse_test2(self, label, p, a, b, color = "black"):
+    ^
+../../src/common\graph2d.py:115:55: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse_test2(self, label, p, a, b, color = "black"):
+                                                      ^
+../../src/common\graph2d.py:115:57: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse_test2(self, label, p, a, b, color = "black"):
+                                                        ^
+../../src/common\graph2d.py:116:48: E261 at least two spaces before inline comment
+        t = np.linspace(-1 * np.pi, np.pi, 100) # －π～πまでの範囲
+                                               ^
+../../src/common\graph2d.py:120:1: W293 blank line contains whitespace
+        
+^
+../../src/common\graph2d.py:135:5: E301 expected 1 blank line, found 0
+    def plot_ellipse(self, label, p, a, b, rot, color = "black"):
+    ^
+../../src/common\graph2d.py:135:54: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse(self, label, p, a, b, rot, color = "black"):
+                                                     ^
+../../src/common\graph2d.py:135:56: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse(self, label, p, a, b, rot, color = "black"):
+                                                       ^
+../../src/common\graph2d.py:137:36: E203 whitespace before ','
+        Ell = np.array([a*np.cos(t) , b*np.sin(t)])  
+                                   ^
+../../src/common\graph2d.py:137:52: W291 trailing whitespace
+        Ell = np.array([a*np.cos(t) , b*np.sin(t)])  
+                                                   ^
+../../src/common\graph2d.py:138:34: E261 at least two spaces before inline comment
+        t_rot = math.radians(rot) #rotation angle
+                                 ^
+../../src/common\graph2d.py:138:35: E262 inline comment should start with '# '
+        t_rot = math.radians(rot) #rotation angle
+                                  ^
+../../src/common\graph2d.py:139:43: E203 whitespace before ','
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                          ^
+../../src/common\graph2d.py:139:63: E231 missing whitespace after ','
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                                              ^
+../../src/common\graph2d.py:139:80: E501 line too long (122 > 79 characters)
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                                                               ^
+../../src/common\graph2d.py:139:80: E203 whitespace before ','
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                                                               ^
+../../src/common\graph2d.py:139:103: E262 inline comment should start with '# '
+        R_rot = np.array([[math.cos(t_rot) , -math.sin(t_rot)],[math.sin(t_rot) , math.cos(t_rot)]])  #2-D rotation matrix
+                                                                                                      ^
+../../src/common\graph2d.py:140:1: W293 blank line contains whitespace
+             
+^
+../../src/common\graph2d.py:141:30: E231 missing whitespace after ','
+        Ell_rot = np.zeros((2,Ell.shape[1]))
+                             ^
+../../src/common\graph2d.py:143:22: E231 missing whitespace after ','
+            Ell_rot[:,i] = np.dot(R_rot,Ell[:,i])
+                     ^
+../../src/common\graph2d.py:143:40: E231 missing whitespace after ','
+            Ell_rot[:,i] = np.dot(R_rot,Ell[:,i])
+                                       ^
+../../src/common\graph2d.py:143:46: E231 missing whitespace after ','
+            Ell_rot[:,i] = np.dot(R_rot,Ell[:,i])
+                                             ^
+../../src/common\graph2d.py:145:18: E201 whitespace after '('
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                 ^
+../../src/common\graph2d.py:145:33: E231 missing whitespace after ','
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                ^
+../../src/common\graph2d.py:145:36: E203 whitespace before ','
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                   ^
+../../src/common\graph2d.py:145:53: E231 missing whitespace after ','
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                    ^
+../../src/common\graph2d.py:145:56: E203 whitespace before ','
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                       ^
+../../src/common\graph2d.py:145:64: E251 unexpected spaces around keyword / parameter equals
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                               ^
+../../src/common\graph2d.py:145:66: E251 unexpected spaces around keyword / parameter equals
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                                 ^
+../../src/common\graph2d.py:145:77: E262 inline comment should start with '# '
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                                            ^
+../../src/common\graph2d.py:145:80: E501 line too long (92 > 79 characters)
+        plt.plot( p[0]+Ell_rot[0,:] , p[1]+Ell_rot[1,:] , color = color)    #rotated ellipse
+                                                                               ^
+../../src/common\graph2d.py:148:5: E303 too many blank lines (2)
+    # 楕円描画
+    ^
+../../src/common\graph2d.py:149:5: E301 expected 1 blank line, found 0
+    def plot_ellipse_test(self, p, width, height, color = "black"):
+    ^
+../../src/common\graph2d.py:149:56: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse_test(self, p, width, height, color = "black"):
+                                                       ^
+../../src/common\graph2d.py:149:58: E251 unexpected spaces around keyword / parameter equals
+    def plot_ellipse_test(self, p, width, height, color = "black"):
+                                                         ^
+../../src/common\graph2d.py:150:80: E501 line too long (98 > 79 characters)
+        r = patches.Ellipse(xy=(p[0], p[1]), width=width, height=height, ec='#000000', fill=False)
+                                                                               ^
+../../src/common\graph2d.py:154:3: E114 indentation is not a multiple of four (comment)
+  # 2次元ガウス分布描画
+  ^
+../../src/common\graph2d.py:154:3: E303 too many blank lines (2)
+  # 2次元ガウス分布描画
+  ^
+../../src/common\graph2d.py:155:5: E301 expected 1 blank line, found 0
+    def multivariate_normal(self, mean, cov):
+    ^
+../../src/common\graph2d.py:157:10: E231 missing whitespace after ','
+        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))
+         ^
+../../src/common\graph2d.py:157:54: E231 missing whitespace after ','
+        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))
+                                                     ^
+../../src/common\graph2d.py:157:76: E231 missing whitespace after ','
+        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))
+                                                                           ^
+../../src/common\graph2d.py:157:80: E501 line too long (127 > 79 characters)
+        x,y = np.meshgrid(np.linspace(-cov[0][0]*rate,cov[0][0]*rate, 1000),np.linspace(-cov[1][1]*rate, cov[1][1]*rate, 1000))
+                                                                               ^
+../../src/common\graph2d.py:158:27: E231 missing whitespace after ','
+        pos = np.dstack((x,y))
+                          ^
+../../src/common\graph2d.py:159:49: E231 missing whitespace after ','
+        z = scipy.stats.multivariate_normal(mean,cov).pdf(pos)
+                                                ^
+../../src/common\graph2d.py:160:29: E231 missing whitespace after ','
+        self.axes.contourf(x,y,z)
+                            ^
+../../src/common\graph2d.py:160:31: E231 missing whitespace after ','
+        self.axes.contourf(x,y,z)
+                              ^
+../../src/common\graph3d.py:13:1: E302 expected 2 blank lines, found 1
+class graph(object):
+^
+../../src/common\graph3d.py:15:80: E501 line too long (84 > 79 characters)
+    def __init__(self, title, xlabel, ylabel, zlabel, xrange, yrange, zrange, grid):
+                                                                               ^
+../../src/common\graph3d.py:33:1: W293 blank line contains whitespace
+        """
+        Constructor
+
+        Parameters
+        ----------
+        title : string
+            Graph Title
+        xlabel : string
+            X Axis Label
+        ylabel : string
+            Y Axis Label
+        xrange : int
+            X Axis Minimum - Maximum
+        yrange : int
+            Y Axis Minimum - Maximum
+        grid : bool
+            Grid Enable
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src/common\graph3d.py:38:38: E251 unexpected spaces around keyword / parameter equals
+        self.fig = plt.figure(figsize = (6, 6))  # FigureとAxes
+                                     ^
+../../src/common\graph3d.py:38:40: E251 unexpected spaces around keyword / parameter equals
+        self.fig = plt.figure(figsize = (6, 6))  # FigureとAxes
+                                       ^
+../../src/common\graph3d.py:42:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel(xlabel, fontsize = 11)
+                                             ^
+../../src/common\graph3d.py:42:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_xlabel(xlabel, fontsize = 11)
+                                               ^
+../../src/common\graph3d.py:43:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel(ylabel, fontsize = 11)
+                                             ^
+../../src/common\graph3d.py:43:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_ylabel(ylabel, fontsize = 11)
+                                               ^
+../../src/common\graph3d.py:44:46: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_zlabel(zlabel, fontsize = 11)
+                                             ^
+../../src/common\graph3d.py:44:48: E251 unexpected spaces around keyword / parameter equals
+        self.axes.set_zlabel(zlabel, fontsize = 11)
+                                               ^
+../../src/common\graph3d.py:53:1: E266 too many leading '#' for block comment
+##            self.axes.axis(zmin = zrange[0], zmax = zrange[1])
+^
+../../src/common\graph3d.py:54:17: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+        if grid == True:
+                ^
+../../src/common\graph3d.py:58:5: E303 too many blank lines (2)
+    def set_coodinate(self, org, x_axis, y_axis, z_axis):
+    ^
+../../src/common\graph3d.py:77:80: E501 line too long (136 > 79 characters)
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                               ^
+../../src/common\graph3d.py:77:88: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                       ^
+../../src/common\graph3d.py:77:90: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                         ^
+../../src/common\graph3d.py:77:106: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                         ^
+../../src/common\graph3d.py:77:108: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                           ^
+../../src/common\graph3d.py:77:130: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                 ^
+../../src/common\graph3d.py:77:132: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], x_axis[0], x_axis[1], x_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                   ^
+../../src/common\graph3d.py:78:80: E501 line too long (136 > 79 characters)
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                               ^
+../../src/common\graph3d.py:78:88: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                       ^
+../../src/common\graph3d.py:78:90: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                         ^
+../../src/common\graph3d.py:78:106: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                         ^
+../../src/common\graph3d.py:78:108: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                           ^
+../../src/common\graph3d.py:78:130: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                 ^
+../../src/common\graph3d.py:78:132: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], y_axis[0], y_axis[1], y_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                   ^
+../../src/common\graph3d.py:79:80: E501 line too long (136 > 79 characters)
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                               ^
+../../src/common\graph3d.py:79:88: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                       ^
+../../src/common\graph3d.py:79:90: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                         ^
+../../src/common\graph3d.py:79:106: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                         ^
+../../src/common\graph3d.py:79:108: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                           ^
+../../src/common\graph3d.py:79:130: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                 ^
+../../src/common\graph3d.py:79:132: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(org[0], org[1], org[2], z_axis[0], z_axis[1], z_axis[2], color = "black", length = 1, arrow_length_ratio = 0.2)
+                                                                                                                                   ^
+../../src/common\graph3d.py:81:67: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                  ^
+../../src/common\graph3d.py:81:69: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                    ^
+../../src/common\graph3d.py:81:80: E501 line too long (96 > 79 characters)
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                               ^
+../../src/common\graph3d.py:81:83: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                                  ^
+../../src/common\graph3d.py:81:85: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(x_axis[0], x_axis[1], x_axis[2], "X", color = "black", size = 9)  # X座標表示
+                                                                                    ^
+../../src/common\graph3d.py:82:67: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                  ^
+../../src/common\graph3d.py:82:69: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                    ^
+../../src/common\graph3d.py:82:80: E501 line too long (96 > 79 characters)
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                               ^
+../../src/common\graph3d.py:82:83: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                                  ^
+../../src/common\graph3d.py:82:85: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(y_axis[0], y_axis[1], y_axis[2], "Y", color = "black", size = 9)  # Y座標表示
+                                                                                    ^
+../../src/common\graph3d.py:83:67: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                  ^
+../../src/common\graph3d.py:83:69: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                    ^
+../../src/common\graph3d.py:83:80: E501 line too long (96 > 79 characters)
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                               ^
+../../src/common\graph3d.py:83:83: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                                  ^
+../../src/common\graph3d.py:83:85: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(z_axis[0], z_axis[1], z_axis[2], "Z", color = "black", size = 9)  # Z座標表示
+                                                                                    ^
+../../src/common\graph3d.py:85:1: W293 blank line contains whitespace
+        
+^
+../../src/common\graph3d.py:86:5: E303 too many blank lines (2)
+    def text_value(self, p):
+    ^
+../../src/common\graph3d.py:89:1: W293 blank line contains whitespace
+        """
+        (X, Y, Z)形式テキスト変換
+        
+        Parameters
+        ----------
+        p : float[3]
+            3次元座標
+            
+        Returns
+        ----------
+        text : string
+            (X, Y, Z)形式テキスト
+        """
+^
+../../src/common\graph3d.py:94:1: W293 blank line contains whitespace
+        """
+        (X, Y, Z)形式テキスト変換
+        
+        Parameters
+        ----------
+        p : float[3]
+            3次元座標
+            
+        Returns
+        ----------
+        text : string
+            (X, Y, Z)形式テキスト
+        """
+^
+../../src/common\graph3d.py:104:5: E303 too many blank lines (2)
+    def plot_vector(self, label, p0, p1, color = "black"):
+    ^
+../../src/common\graph3d.py:104:47: E251 unexpected spaces around keyword / parameter equals
+    def plot_vector(self, label, p0, p1, color = "black"):
+                                              ^
+../../src/common\graph3d.py:104:49: E251 unexpected spaces around keyword / parameter equals
+    def plot_vector(self, label, p0, p1, color = "black"):
+                                                ^
+../../src/common\graph3d.py:107:1: W293 blank line contains whitespace
+        """
+        ベクトル描画
+        
+        Parameters
+        ----------
+        label : string
+            凡例
+        p0 : float[3]
+            3次元座標　始点
+        p1 : float[3]
+            3次元座標　終点
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src/common\graph3d.py:118:1: W293 blank line contains whitespace
+        """
+        ベクトル描画
+        
+        Parameters
+        ----------
+        label : string
+            凡例
+        p0 : float[3]
+            3次元座標　始点
+        p1 : float[3]
+            3次元座標　終点
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src/common\graph3d.py:123:73: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                        ^
+../../src/common\graph3d.py:123:75: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                          ^
+../../src/common\graph3d.py:123:80: E501 line too long (132 > 79 characters)
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                               ^
+../../src/common\graph3d.py:123:89: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                                        ^
+../../src/common\graph3d.py:123:91: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                                          ^
+../../src/common\graph3d.py:123:113: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                                                                ^
+../../src/common\graph3d.py:123:115: E251 unexpected spaces around keyword / parameter equals
+        self.axes.quiver(p0[0], p0[1], p0[2], p1[0], p1[1], p1[2], color = color, length = 1, arrow_length_ratio = 0.2, label=label)
+                                                                                                                  ^
+../../src/common\graph3d.py:125:71: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                      ^
+../../src/common\graph3d.py:125:73: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                        ^
+../../src/common\graph3d.py:125:80: E501 line too long (97 > 79 characters)
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src/common\graph3d.py:125:85: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                                    ^
+../../src/common\graph3d.py:125:87: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p1[0], p1[1], p1[2], self.text_value(p1), color = color, size = 9)  # 数値表示
+                                                                                      ^
+../../src/common\graph3d.py:128:5: E303 too many blank lines (2)
+    def plot_point(self, label, p, marker=".", color = "black"):
+    ^
+../../src/common\graph3d.py:128:53: E251 unexpected spaces around keyword / parameter equals
+    def plot_point(self, label, p, marker=".", color = "black"):
+                                                    ^
+../../src/common\graph3d.py:128:55: E251 unexpected spaces around keyword / parameter equals
+    def plot_point(self, label, p, marker=".", color = "black"):
+                                                      ^
+../../src/common\graph3d.py:131:1: W293 blank line contains whitespace
+        """
+        ポイント描画
+        
+        Parameters
+        ----------
+        label : string
+            凡例
+        p : float[3]
+            3次元座標
+        marker : string
+            マーカー
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src/common\graph3d.py:142:1: W293 blank line contains whitespace
+        """
+        ポイント描画
+        
+        Parameters
+        ----------
+        label : string
+            凡例
+        p : float[3]
+            3次元座標
+        marker : string
+            マーカー
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src/common\graph3d.py:147:80: E501 line too long (92 > 79 characters)
+        self.axes.scatter(p[0], p[1], p[2], marker=marker, color=color, label=label)  # プロット
+                                                                               ^
+../../src/common\graph3d.py:149:67: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                  ^
+../../src/common\graph3d.py:149:69: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                    ^
+../../src/common\graph3d.py:149:80: E501 line too long (93 > 79 characters)
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                               ^
+../../src/common\graph3d.py:149:81: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                                ^
+../../src/common\graph3d.py:149:83: E251 unexpected spaces around keyword / parameter equals
+        self.axes.text(p[0], p[1], p[2], self.text_value(p), color = color, size = 9)  # 数値表示
+                                                                                  ^
+../../src/common\graph3d.py:153:5: E303 too many blank lines (3)
+    def plot_sphere(self, org, r, color = "black"):
+    ^
+../../src/common\graph3d.py:153:40: E251 unexpected spaces around keyword / parameter equals
+    def plot_sphere(self, org, r, color = "black"):
+                                       ^
+../../src/common\graph3d.py:153:42: E251 unexpected spaces around keyword / parameter equals
+    def plot_sphere(self, org, r, color = "black"):
+                                         ^
+../../src/common\graph3d.py:156:1: W293 blank line contains whitespace
+        """
+        球描画
+        
+        Parameters
+        ----------
+        org : float[3]
+            球原点3次元座標
+        r : float
+            球半径
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src/common\graph3d.py:165:1: W293 blank line contains whitespace
+        """
+        球描画
+        
+        Parameters
+        ----------
+        org : float[3]
+            球原点3次元座標
+        r : float
+            球半径
+        color : string
+            色
+            
+        Returns
+        ----------
+        None
+        """
+^
+../../src/common\graph3d.py:170:49: E261 at least two spaces before inline comment
+        theta_1_0 = np.linspace(0, 2*np.pi, 100) # θ_1は[0,π/2]の値をとる
+                                                ^
+../../src/common\graph3d.py:171:49: E261 at least two spaces before inline comment
+        theta_2_0 = np.linspace(0, 2*np.pi, 100) # θ_2は[0,π/2]の値をとる
+                                                ^
+../../src/common\graph3d.py:172:61: E261 at least two spaces before inline comment
+        theta_1, theta_2 = np.meshgrid(theta_1_0, theta_2_0) # ２次元配列に変換
+                                                            ^
+../../src/common\graph3d.py:173:59: E261 at least two spaces before inline comment
+        x = org[0] + (np.cos(theta_2)*np.sin(theta_1) * r) # xの極座標表示
+                                                          ^
+../../src/common\graph3d.py:174:59: E261 at least two spaces before inline comment
+        y = org[1] + (np.sin(theta_2)*np.sin(theta_1) * r) # yの極座標表示
+                                                          ^
+../../src/common\graph3d.py:175:43: E261 at least two spaces before inline comment
+        z = org[2] + (np.cos(theta_1) * r) # zの極座標表示
+                                          ^
+../../src/common\graph3d.py:176:57: E251 unexpected spaces around keyword / parameter equals
+        self.axes.plot_surface(x, y, z, alpha=0.2, color = color) # 球を３次元空間に表示
+                                                        ^
+../../src/common\graph3d.py:176:59: E251 unexpected spaces around keyword / parameter equals
+        self.axes.plot_surface(x, y, z, alpha=0.2, color = color) # 球を３次元空間に表示
+                                                          ^
+../../src/common\graph3d.py:176:66: E261 at least two spaces before inline comment
+        self.axes.plot_surface(x, y, z, alpha=0.2, color = color) # 球を３次元空間に表示
+                                                                 ^
+../../src/common\line.py:17:5: F841 local variable 'line_notify' is assigned to but never used
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers)
+    ^
+../../src/common\line.py:17:80: E501 line too long (86 > 79 characters)
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers)
+                                                                               ^
+../../src/common\line.py:23:5: F841 local variable 'line_notify' is assigned to but never used
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers, files=files)
+    ^
+../../src/common\line.py:23:80: E501 line too long (99 > 79 characters)
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers, files=files)
+                                                                               ^
+../../src/common\line.py:29:5: F841 local variable 'line_notify' is assigned to but never used
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers, files=files)
+    ^
+../../src/common\line.py:29:80: E501 line too long (99 > 79 characters)
+    line_notify = requests.post(config.line_notify_api, data=payload, headers=headers, files=files)
+                                                                               ^
+../../src/common\plot.py:10:1: F401 'mpl_toolkits.mplot3d.Axes3D' imported but unused
+from mpl_toolkits.mplot3d import Axes3D
+^
+../../src/common\plot.py:48:80: E501 line too long (107 > 79 characters)
+def show_3D_grahp(title, x, y, z, xlabel, ylabel, zlabel, legend, xmin, xmax, ymin, ymax, zmin, zmax, arg):
+                                                                               ^
+../../src/common\plot.py:123:80: E501 line too long (82 > 79 characters)
+                normed=False,  # True に設定すると正規化 (合計値が 1 になるように変換)。 (デフォルト値: False)
+                                                                               ^
+../../src/common\plot.py:124:33: W291 trailing whitespace
+                weights=None,  # 
+                                ^
+../../src/common\plot.py:127:80: E501 line too long (140 > 79 characters)
+                histtype='bar',  # ‘bar’ (通常のヒストグラム), ‘barstacked’ (積み上げヒストグラム), ‘step’ (線), ‘stepfilled ‘ (塗りつぶしありの線) から選択。 (デフォルト値: ‘bar’)
+                                                                               ^
+../../src/common\plot.py:128:80: E501 line too long (102 > 79 characters)
+                align='mid',  # 各棒の中心を X 軸目盛上のどの横位置で出力するか。 ‘left’, ‘mid’, ‘right’ から選択。(デフォルト値: ‘mid’)
+                                                                               ^
+../../src/common\plot.py:129:80: E501 line too long (112 > 79 characters)
+                orientation='vertical',  # 棒の方向。’horizontal’ (水平方向), ‘vertical’ (垂直方向) から選択。(デフォルト値: ‘vertical’)
+                                                                               ^
+../../src/common\plot.py:134:80: E501 line too long (82 > 79 characters)
+                stacked=False,  # True に設定すると積み上げヒストグラムで出力します。False に設定すると、横に並べて出力
+                                                                               ^
+../../src/common\plot.py:135:30: W291 trailing whitespace
+                hold=None,  # 
+                             ^
+../../src/common\plot.py:136:29: W291 trailing whitespace
+                data=None  # 
+                            ^
+../../src/common\plot.py:184:80: E501 line too long (104 > 79 characters)
+def show_3D_vector(title, X, Y, Z, U, V, W, xlabel, ylabel, zlabel, xmin, xmax, ymin, ymax, zmin, zmax):
+                                                                               ^
+../../src/common\rsyslog.py:11:1: E302 expected 2 blank lines, found 1
+def open():
+^
+../../src/common\rsyslog.py:12:1: W191 indentation contains tabs
+	# opetion
+^
+../../src/common\rsyslog.py:13:1: W191 indentation contains tabs
+	if config.syslog_option == "LOG_PID":
+^
+../../src/common\rsyslog.py:14:1: W191 indentation contains tabs
+		option = common.syslog.LOG_PID
+^
+../../src/common\rsyslog.py:15:1: W191 indentation contains tabs
+	elif config.syslog_option == "LOG_CONS":
+^
+../../src/common\rsyslog.py:16:1: W191 indentation contains tabs
+		option = common.syslog.LOG_CONS
+^
+../../src/common\rsyslog.py:17:1: W191 indentation contains tabs
+	elif config.syslog_option == "LOG_NDELAY":
+^
+../../src/common\rsyslog.py:18:1: W191 indentation contains tabs
+		option = common.syslog.LOG_NDELAY
+^
+../../src/common\rsyslog.py:19:1: W191 indentation contains tabs
+	elif config.syslog_option == "LOG_ODELAY":
+^
+../../src/common\rsyslog.py:20:1: W191 indentation contains tabs
+		option = common.syslog.LOG_ODELAY
+^
+../../src/common\rsyslog.py:21:1: W191 indentation contains tabs
+	elif config.syslog_option == "LOG_NOWAIT":
+^
+../../src/common\rsyslog.py:22:1: W191 indentation contains tabs
+		option = common.syslog.LOG_NOWAIT
+^
+../../src/common\rsyslog.py:23:1: W191 indentation contains tabs
+	else:
+^
+../../src/common\rsyslog.py:24:1: W191 indentation contains tabs
+		option = LOG_PID
+^
+../../src/common\rsyslog.py:24:12: F821 undefined name 'LOG_PID'
+		option = LOG_PID
+		         ^
+../../src/common\rsyslog.py:26:1: W191 indentation contains tabs
+	# facility
+^
+../../src/common\rsyslog.py:27:1: W191 indentation contains tabs
+	if config.syslog_facility == "LOG_LOCAL0":
+^
+../../src/common\rsyslog.py:28:1: W191 indentation contains tabs
+		fclty = syslog.LOG_LOCAL0
+^
+../../src/common\rsyslog.py:28:11: F821 undefined name 'syslog'
+		fclty = syslog.LOG_LOCAL0
+		        ^
+../../src/common\rsyslog.py:29:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL1":
+^
+../../src/common\rsyslog.py:30:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL1
+^
+../../src/common\rsyslog.py:31:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL2":
+^
+../../src/common\rsyslog.py:32:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL2
+^
+../../src/common\rsyslog.py:33:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL3":
+^
+../../src/common\rsyslog.py:34:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL3
+^
+../../src/common\rsyslog.py:35:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL4":
+^
+../../src/common\rsyslog.py:36:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL4
+^
+../../src/common\rsyslog.py:37:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL5":
+^
+../../src/common\rsyslog.py:38:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL5
+^
+../../src/common\rsyslog.py:39:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL6":
+^
+../../src/common\rsyslog.py:40:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL6
+^
+../../src/common\rsyslog.py:41:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LOCAL7":
+^
+../../src/common\rsyslog.py:42:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL7
+^
+../../src/common\rsyslog.py:43:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_SYSLOG":
+^
+../../src/common\rsyslog.py:44:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_SYSLOG
+^
+../../src/common\rsyslog.py:45:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_KERN":
+^
+../../src/common\rsyslog.py:46:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_KERN
+^
+../../src/common\rsyslog.py:47:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_USER":
+^
+../../src/common\rsyslog.py:48:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_USER
+^
+../../src/common\rsyslog.py:49:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_MAIL":
+^
+../../src/common\rsyslog.py:50:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_MAIL
+^
+../../src/common\rsyslog.py:51:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_DAEMON":
+^
+../../src/common\rsyslog.py:52:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_DAEMON
+^
+../../src/common\rsyslog.py:53:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_AUTH":
+^
+../../src/common\rsyslog.py:54:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_AUTH
+^
+../../src/common\rsyslog.py:55:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_LPR":
+^
+../../src/common\rsyslog.py:56:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LPR
+^
+../../src/common\rsyslog.py:57:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_NEWS":
+^
+../../src/common\rsyslog.py:58:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_NEWS
+^
+../../src/common\rsyslog.py:59:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_UUCP":
+^
+../../src/common\rsyslog.py:60:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_UUCP
+^
+../../src/common\rsyslog.py:61:1: W191 indentation contains tabs
+	elif config.syslog_facility == "LOG_CRON":
+^
+../../src/common\rsyslog.py:62:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_CRON
+^
+../../src/common\rsyslog.py:63:1: W191 indentation contains tabs
+	else:
+^
+../../src/common\rsyslog.py:64:1: W191 indentation contains tabs
+		fclty = common.syslog.LOG_LOCAL0
+^
+../../src/common\rsyslog.py:66:1: W191 indentation contains tabs
+	common.syslog.openlog(logoption = option, facility = fclty)
+^
+../../src/common\rsyslog.py:66:33: E251 unexpected spaces around keyword / parameter equals
+	common.syslog.openlog(logoption = option, facility = fclty)
+	                               ^
+../../src/common\rsyslog.py:66:35: E251 unexpected spaces around keyword / parameter equals
+	common.syslog.openlog(logoption = option, facility = fclty)
+	                                 ^
+../../src/common\rsyslog.py:66:52: E251 unexpected spaces around keyword / parameter equals
+	common.syslog.openlog(logoption = option, facility = fclty)
+	                                                  ^
+../../src/common\rsyslog.py:66:54: E251 unexpected spaces around keyword / parameter equals
+	common.syslog.openlog(logoption = option, facility = fclty)
+	                                                    ^
+../../src/common\rsyslog.py:70:1: W191 indentation contains tabs
+	syslog.syslog(priority, message)
+^
+../../src/common\rsyslog.py:70:2: F821 undefined name 'syslog'
+	syslog.syslog(priority, message)
+	^
+../../src/common\rsyslog.py:72:1: E302 expected 2 blank lines, found 1
+def close():
+^
+../../src/common\rsyslog.py:73:1: W191 indentation contains tabs
+	syslog.closelog()
+^
+../../src/common\rsyslog.py:73:2: F821 undefined name 'syslog'
+	syslog.closelog()
+	^

@@ -1,0 +1,132 @@
+..\..\src\class.py
+    ERROR: 'cp932' codec can't decode byte 0x88 in position 120: illegal multibyte sequence
+..\..\src\config.py
+    ERROR: 'cp932' codec can't decode byte 0x97 in position 265: illegal multibyte sequence
+..\..\src\fizzbuzz.py
+    LOC: 22
+    LLOC: 12
+    SLOC: 11
+    Comments: 1
+    Single comments: 1
+    Multi: 4
+    Blank: 6
+    - Comment Stats
+        (C % L): 5%
+        (C % S): 9%
+        (C + M % L): 23%
+..\..\src\function.py
+    ERROR: 'cp932' codec can't decode byte 0x88 in position 153: illegal multibyte sequence
+..\..\src\help.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 120: illegal multibyte sequence
+..\..\src\main.py
+    ERROR: 'cp932' codec can't decode byte 0x99 in position 1728: illegal multibyte sequence
+..\..\src\parameter.py
+    LOC: 21
+    LLOC: 5
+    SLOC: 3
+    Comments: 1
+    Single comments: 1
+    Multi: 12
+    Blank: 5
+    - Comment Stats
+        (C % L): 5%
+        (C % S): 33%
+        (C + M % L): 62%
+..\..\src\translation.py
+    ERROR: 'cp932' codec can't decode byte 0x85 in position 180: illegal multibyte sequence
+..\..\src\version.py
+    LOC: 16
+    LLOC: 6
+    SLOC: 5
+    Comments: 1
+    Single comments: 1
+    Multi: 4
+    Blank: 6
+    - Comment Stats
+        (C % L): 6%
+        (C % S): 20%
+        (C + M % L): 31%
+..\..\src\__init__.py
+    LOC: 0
+    LLOC: 0
+    SLOC: 0
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 0
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+..\..\src\common\console.py
+    ERROR: 'cp932' codec can't decode byte 0x85 in position 587: illegal multibyte sequence
+..\..\src\common\database.py
+    ERROR: 'cp932' codec can't decode byte 0x97 in position 238: illegal multibyte sequence
+..\..\src\common\graph2d.py
+    ERROR: 'cp932' codec can't decode byte 0x95 in position 622: illegal multibyte sequence
+..\..\src\common\graph3d.py
+    ERROR: 'cp932' codec can't decode byte 0x95 in position 926: illegal multibyte sequence
+..\..\src\common\line.py
+    LOC: 29
+    LLOC: 21
+    SLOC: 14
+    Comments: 2
+    Single comments: 1
+    Multi: 4
+    Blank: 10
+    - Comment Stats
+        (C % L): 7%
+        (C % S): 14%
+        (C + M % L): 21%
+..\..\src\common\logger.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 396: illegal multibyte sequence
+..\..\src\common\plot.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 306: illegal multibyte sequence
+..\..\src\common\rsyslog.py
+    LOC: 73
+    LLOC: 59
+    SLOC: 58
+    Comments: 3
+    Single comments: 3
+    Multi: 4
+    Blank: 8
+    - Comment Stats
+        (C % L): 4%
+        (C % S): 5%
+        (C + M % L): 10%
+..\..\src\common\console.py
+    ERROR: 'cp932' codec can't decode byte 0x85 in position 587: illegal multibyte sequence
+..\..\src\common\database.py
+    ERROR: 'cp932' codec can't decode byte 0x97 in position 238: illegal multibyte sequence
+..\..\src\common\graph2d.py
+    ERROR: 'cp932' codec can't decode byte 0x95 in position 622: illegal multibyte sequence
+..\..\src\common\graph3d.py
+    ERROR: 'cp932' codec can't decode byte 0x95 in position 926: illegal multibyte sequence
+..\..\src\common\line.py
+    LOC: 29
+    LLOC: 21
+    SLOC: 14
+    Comments: 2
+    Single comments: 1
+    Multi: 4
+    Blank: 10
+    - Comment Stats
+        (C % L): 7%
+        (C % S): 14%
+        (C + M % L): 21%
+..\..\src\common\logger.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 396: illegal multibyte sequence
+..\..\src\common\plot.py
+    ERROR: 'cp932' codec can't decode byte 0x83 in position 306: illegal multibyte sequence
+..\..\src\common\rsyslog.py
+    LOC: 73
+    LLOC: 59
+    SLOC: 58
+    Comments: 3
+    Single comments: 3
+    Multi: 4
+    Blank: 8
+    - Comment Stats
+        (C % L): 4%
+        (C % S): 5%
+        (C + M % L): 10%

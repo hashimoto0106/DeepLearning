@@ -1,0 +1,69 @@
+変更後パス名,変更前パス名,モジュール名,種類,新規ステップ数,修正元ステップ数,修正ステップ数,流用ステップ数,削除ステップ数
+"..\src\class.py","..\src\class.py","モジュール外",py,0,0,0,0,0
+"..\src\class.py","..\src\class.py","class Fruit(object)",py,0,0,0,1,0
+"..\src\class.py","..\src\class.py","def __init__",py,0,0,0,4,0
+"..\src\class.py","..\src\class.py","def get_fruit_name",py,0,0,0,1,0
+"..\src\class.py","..\src\class.py","def get_price_dict",py,0,0,0,3,0
+"..\src\config.py","..\src\config.py","モジュール外",py,0,0,0,14,0
+"..\src\config.py","..\src\config.py","def init",py,0,0,0,2,0
+"..\src\config.py","..\src\config.py","def logging_paramter",py,0,0,0,11,0
+"..\src\fizzbuzz.py","..\src\fizzbuzz.py","def fizzbuzz",py,0,0,0,11,0
+"..\src\function.py","..\src\function.py","モジュール外",py,0,0,0,2,0
+"..\src\function.py","..\src\function.py","def get_fruit_price",py,0,0,0,10,0
+"..\src\help.py","..\src\help.py","モジュール外",py,0,0,0,16,0
+"..\src\main.py","..\src\main.py","モジュール外",py,0,0,0,9,0
+"..\src\main.py","..\src\main.py","def proc",py,0,0,0,55,0
+"..\src\parameter.py","..\src\parameter.py","モジュール外",py,0,0,0,3,0
+"..\src\translation.py","..\src\translation.py","def init",py,0,0,0,18,0
+"..\src\version.py","..\src\version.py","def get_version",py,0,0,0,3,0
+"..\src\version.py","..\src\version.py","def print_version",py,0,0,0,2,0
+"..\src\common\console.py","..\src\common\console.py","モジュール外",py,0,0,0,3,0
+"..\src\common\console.py","..\src\common\console.py","class Color",py,0,0,0,17,0
+"..\src\common\database.py","..\src\common\database.py","モジュール外",py,0,0,0,5,0
+"..\src\common\database.py","..\src\common\database.py","def create_table",py,0,0,0,4,0
+"..\src\common\database.py","..\src\common\database.py","def insert",py,0,0,0,5,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","モジュール外",py,0,0,0,5,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","class graph(object)",py,0,0,0,1,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def __init__",py,0,0,0,6,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def set_graph",py,0,0,0,7,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def set_graph_image",py,0,0,0,5,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def set_graph_polar",py,0,0,0,2,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def plot_point_polar",py,0,0,0,3,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def text_value",py,0,0,0,2,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def plot_vector",py,0,0,0,4,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def plot_point",py,0,0,0,4,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def plot_circle",py,0,0,0,3,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def plot_rectangle",py,0,0,0,3,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def ellipse",py,0,0,0,3,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def plot_ellipse_test2",py,0,0,0,15,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def plot_ellipse",py,0,0,0,9,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def plot_ellipse_test",py,0,0,0,3,0
+"..\src\common\graph2d.py","..\src\common\graph2d.py","def multivariate_normal",py,0,0,0,11,0
+"..\src\common\graph3d.py","..\src\common\graph3d.py","モジュール外",py,0,0,0,3,0
+"..\src\common\graph3d.py","..\src\common\graph3d.py","class graph(object)",py,0,0,0,1,0
+"..\src\common\graph3d.py","..\src\common\graph3d.py","def __init__",py,0,0,0,16,0
+"..\src\common\graph3d.py","..\src\common\graph3d.py","def set_coodinate",py,0,0,0,8,0
+"..\src\common\graph3d.py","..\src\common\graph3d.py","def text_value",py,0,0,0,3,0
+"..\src\common\graph3d.py","..\src\common\graph3d.py","def plot_vector",py,0,0,0,4,0
+"..\src\common\graph3d.py","..\src\common\graph3d.py","def plot_point",py,0,0,0,4,0
+"..\src\common\graph3d.py","..\src\common\graph3d.py","def plot_sphere",py,0,0,0,8,0
+"..\src\common\line.py","..\src\common\line.py","モジュール外",py,0,0,0,3,0
+"..\src\common\line.py","..\src\common\line.py","def send_message",py,0,0,0,3,0
+"..\src\common\line.py","..\src\common\line.py","def send_image",py,0,0,0,4,0
+"..\src\common\line.py","..\src\common\line.py","def send",py,0,0,0,4,0
+"..\src\common\logger.py","..\src\common\logger.py","モジュール外",py,0,0,0,5,0
+"..\src\common\logger.py","..\src\common\logger.py","def init",py,0,0,0,2,0
+"..\src\common\logger.py","..\src\common\logger.py","def logging_environment",py,0,0,0,13,0
+"..\src\common\plot.py","..\src\common\plot.py","def show_2D_grahp",py,0,0,0,14,0
+"..\src\common\plot.py","..\src\common\plot.py","def show_3D_grahp",py,0,0,0,22,0
+"..\src\common\plot.py","..\src\common\plot.py","def show_histgram",py,0,0,0,23,0
+"..\src\common\plot.py","..\src\common\plot.py","def show_2D_vector",py,0,0,0,13,0
+"..\src\common\plot.py","..\src\common\plot.py","def show_3D_vector",py,0,0,0,21,0
+"..\src\common\rsyslog.py","..\src\common\rsyslog.py","def open",py,0,0,0,54,0
+"..\src\common\rsyslog.py","..\src\common\rsyslog.py","def logging",py,0,0,0,2,0
+"..\src\common\rsyslog.py","..\src\common\rsyslog.py","def close",py,0,0,0,2,0
+全ステップ数, , , ,0,0,0,517,0
+
+,新規,改造,流用,削除
+クラス数,0,0,3,0
+モジュール数,0,0,47,0
